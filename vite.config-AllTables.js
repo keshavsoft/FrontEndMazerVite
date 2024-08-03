@@ -1,5 +1,4 @@
 import { defineConfig, normalizePath, build } from 'vite'
-import fs from 'fs'
 import path, { resolve } from 'path'
 import { fileURLToPath } from 'url';
 import nunjucks from 'vite-plugin-nunjucks'
@@ -10,10 +9,7 @@ import { StartFunc as StartFuncGetFiles } from "./src-AllTables/KCode/getFiles.j
 import { StartFunc as StartFuncGetVariables } from "./src-AllTables/KCode/generateVariables.js";
 
 const srcFolder = "src-AllTables";
-const distFolder = "publicDir/crud";
-
-import sidebarItems from "./src/sidebar-items.json";
-import horizontalMenuItems from "./src/horizontal-menu-items.json";
+const distFolder = "publicDir/MazerAT";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -87,9 +83,7 @@ build({
             }
         }
     },
-})
-
-
+});
 
 export default defineConfig((env) => ({
     publicDir: 'static',
@@ -158,4 +152,4 @@ export default defineConfig((env) => ({
             }
         },
     }
-}))
+}));
