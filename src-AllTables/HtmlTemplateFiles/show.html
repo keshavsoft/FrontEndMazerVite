@@ -1,0 +1,88 @@
+{% set title = 'Dashboard' %}
+{% set filename = 'index.html' %}
+
+{% extends 'src/layouts/master.html' %}
+
+{% block styles %}
+<link rel="stylesheet" href="/assets/scss/iconly.scss">
+{% endblock %}
+
+{% block content %}
+<div class="page-heading">
+    <div class="page-title">
+        <div class="row">
+            <div class="col-12 col-md-6 order-md-1 order-last">
+                <h3><a id="RefreshBSTableId">Show All</a></h3>
+                <p class="text-subtitle text-muted">Bootstrap’s cards provide a flexible and extensible
+                    content
+                    container with multiple variants and options.</p>
+            </div>
+            <div class="col-12 col-md-6 order-md-2 order-first">
+                <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Show</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <section class="section">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <div class="card-header">
+                        <h4 class="card-title">Table with outer spacing</h4>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-body">
+                            <p class="card-text">Using the most basic table up, here’s how
+                                <code>.table</code>-based tables look in Bootstrap. You can use any example
+                                of below table for your table and it can be use with any type of bootstrap
+                                tables.
+                            </p>
+
+                            <div class="spinner-border" id="SpinnerId" role="status" style="display: none;">
+                                <span class="visually-hidden">Loading...</span>
+                            </div>
+                            <table id="table">
+                                <thead>
+                                    <tr>
+                                        <th data-formatter="jFGlobalSerialColumn">#</th>
+
+
+                                        <th data-field="ITEMCATEGORYNAME">ItemCategory Name</th>
+
+
+
+                                        <th data-field="ITEMCATEGORYPARENT">ItemCategory Parent</th>
+
+
+
+                                        <th data-field="ITEMCATEGORYALTERID">ItemCategoryal Terid</th>
+
+
+
+                                        <th data-field="GUID">Guid</th>
+
+
+                                    </tr>
+
+                                </thead>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+</div>
+{% endblock %}
+{% block js %}
+<!-- Need: Apexcharts -->
+<script src="./assets/static/js/pages/dashboard.js"></script>
+<script type="module" src="./Js/pages/{{tableName}}Show/StartFunc.js"></script>
+{% endblock %}
