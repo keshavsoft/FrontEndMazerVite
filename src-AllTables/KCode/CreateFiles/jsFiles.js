@@ -32,8 +32,7 @@ const jFLocalConfig = ({ srcFilePath, destFilePath, inTableName }) => {
         config.tableName = inTableName;
 
         fs.writeFileSync(destConfigPath, JSON.stringify(config, null, 2), 'utf-8');
-    }
-
-}
+    };
+};
 
 export { StartFunc };
