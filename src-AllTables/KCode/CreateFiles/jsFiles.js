@@ -18,18 +18,22 @@ const StartFunc = ({ inSrcPath }) => {
                 let destFilePath = path.join(inSrcPath, 'Js', 'pages', `${LoopTableName}${filename}`);
 
                 fs.cpSync(srcFilePath, destFilePath, { recursive: true });
-
-                let srcConfigPath = path.join(srcFilePath, 'config.json');
-                let destConfigPath = path.join(destFilePath, 'config.json');
-
-                if (fs.existsSync(srcConfigPath)) {
-                    let config = JSON.parse(fs.readFileSync(srcConfigPath, 'utf-8'));
-                    config.tableName = LoopTableName;
-
-                    fs.writeFileSync(destConfigPath, JSON.stringify(config, null, 2), 'utf-8');
-                }
+                jFLocalConfig({ srcFilePath, destFilePath, inTableName: LoopTableName });
             });
         });
 };
+
+const jFLocalConfig = ({ srcFilePath, destFilePath, inTableName }) => {
+    let srcConfigPath = path.join(srcFilePath, 'config.json');
+    let destConfigPath = path.join(destFilePath, 'config.json');
+
+    if (fs.existsSync(srcConfigPath)) {
+        let config = JSON.parse(fs.readFileSync(srcConfigPath, 'utf-8'));
+        config.tableName = inTableName;
+
+        fs.writeFileSync(destConfigPath, JSON.stringify(config, null, 2), 'utf-8');
+    }
+
+}
 
 export { StartFunc };
