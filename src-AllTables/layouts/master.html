@@ -38,7 +38,12 @@
     {% else %}
     <script src="./assets/compiled/js/app.js"></script>
     {% endif %}
-
+    <script>
+        let jVarGlobalTableName = "{{ tableName }}";
+        let jVarGlobalSubTableName = "{{ subTableName }}";
+        let jVarGlobalDataPk = "{{ DataPk }}";
+        let jVarGlobalSubTableTagId = "SubTableId";
+    </script>
     {% block js %}{% endblock %}
 </body>
 
