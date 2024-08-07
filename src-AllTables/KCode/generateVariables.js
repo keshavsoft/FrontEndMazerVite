@@ -29,6 +29,7 @@ const StartFunc = ({ mode, inFilesArray, inSrcPath }) => {
         };
 
         let LoopInsideTableName = LocalTableNames.find(element => {
+            console.log("element:",element);
             return filename.startsWith(element);
         });
 

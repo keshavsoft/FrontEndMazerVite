@@ -1,3 +1,4 @@
+import path from "path";
 import fs from "fs";
 import { StartFunc as GetTableNames } from "../GetTableNames.js";
 const CommonHtmlFiles = ["Index", "Login"];
@@ -13,7 +14,20 @@ const StartFunc = ({ inSrcPath }) => {
             };
 
             TableNamesAsArray.forEach(LoopTableName => {
-                fs.cpSync(`${inSrcPath}/JsTemplate/pages/${filename}`, `${inSrcPath}/Js/pages/${LoopTableName}${filename}`, { recursive: true });
+                let srcFilePath = path.join(inSrcPath, 'JsTemplate', 'pages', filename);
+                let destFilePath = path.join(inSrcPath, 'Js', 'pages', `${LoopTableName}${filename}`);
+
+                fs.cpSync(srcFilePath, destFilePath, { recursive: true });
+
+                let srcConfigPath = path.join(srcFilePath, 'config.json');
+                let destConfigPath = path.join(destFilePath, 'config.json');
+
+                if (fs.existsSync(srcConfigPath)) {
+                    let config = JSON.parse(fs.readFileSync(srcConfigPath, 'utf-8'));
+                    config.tableName = LoopTableName;
+
+                    fs.writeFileSync(destConfigPath, JSON.stringify(config, null, 2), 'utf-8');
+                }
             });
         });
 };
