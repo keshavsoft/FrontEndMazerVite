@@ -7,7 +7,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "vite build",
-    "AllTables": "vite build --config vite.config-AllTables.js"
+    "AllTables": "vite build --config vite.config-AllTables.js",
+    "Original": "vite build --config vite.config-Original.js"
   },
   "author": "",
   "license": "ISC",

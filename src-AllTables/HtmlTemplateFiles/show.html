@@ -1,5 +1,5 @@
 {% set title = 'Dashboard' %}
-{% set filename = 'index.html' %}
+{% set filename = 'show.html' %}
 
 {% extends 'src-AllTables/layouts/master.html' %}
 
@@ -45,7 +45,6 @@
                             {% endif %}
                             {% endfor %}
                         </tr>
-
                     </thead>
                 </table>
             </div>
@@ -70,5 +69,5 @@
         return index + 1;
     };
 </script>
-<script type="module" src="./Js/pages/{{tableName}}Show/StartFunc.js"></script>
+<!-- <script type="module" src="./Js/pages/{{tableName}}Show/StartFunc.js"></script> -->
 {% endblock %}
