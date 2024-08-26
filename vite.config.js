@@ -6,7 +6,7 @@ import nunjucks from 'vite-plugin-nunjucks'
 import { viteStaticCopy } from 'vite-plugin-static-copy';
 
 const srcFolder = "src";
-const distFolder = "publicDir/crud";
+const distFolder = "publicDir/chat";
 
 import sidebarItems from "./src/sidebar-items.json";
 import horizontalMenuItems from "./src/horizontal-menu-items.json";

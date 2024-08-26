@@ -9,8 +9,8 @@
     "icon": "grid-fill"
   },
   {
-    "name": "FirstTable",
-    "url": "../bin/316/FirstTable/ShowSimple.html",
+    "name": "Chat",
+    "url": "./chat.html",
     "icon": "grid-fill"
   },
   {
