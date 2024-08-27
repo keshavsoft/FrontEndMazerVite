@@ -28,7 +28,7 @@
                         <div class="media d-flex align-items-center">
                             <div class="avatar me-3">
                                 <img src="assets/static/images/faces/1.jpg" alt="" srcset="">
-                                <span class="avatar-status bg-success"></span>
+                                <span class="avatar-status bg-warning" id="StatusId"></span>
                             </div>
                             <div class="name flex-grow-1">
                                 <h6 class="mb-0" id="NameId">KeshavSoft</h6>
@@ -41,17 +41,6 @@
                     </div>
                     <div class="card-body pt-4 bg-grey">
                         <div class="chat-content" id="ChatContentId">
-                            <div class="chat">
-                                <div class="chat-body">
-                                    <div class="chat-message">Hi Alfy, how can i help you?</div>
-                                </div>
-                            </div>
-                            <div class="chat chat-left">
-                                <div class="chat-body">
-                                    <div class="chat-message">I'm looking for the best admin dashboard template</div>
-                                    <div class="chat-message">With bootstrap certainly</div>
-                                </div>
-                            </div>
                         </div>
                     </div>
                     <div class="card-footer">
@@ -92,5 +81,9 @@
 {% endblock %}
 
 {% block js %}
+<script>
+    let webSocket;
+</script>
 <script type="module" src="./Js/Chat/StartFunc.js"></script>
+<script type="module" src="./Js/Chat/WebSocket/EntryFile.js"></script>
 {% endblock %}
