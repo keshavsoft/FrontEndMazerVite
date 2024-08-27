@@ -17,5 +17,10 @@
     "name": "AllTables",
     "url": "../bin/AllTables",
     "icon": "grid-fill"
+  },
+  {
+    "name": "chatMessages",
+    "url": "./chatMessages.html",
+    "icon": "grid-fill"
   }
 ]
