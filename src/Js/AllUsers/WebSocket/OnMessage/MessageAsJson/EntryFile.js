@@ -7,7 +7,6 @@
 
 let StartFunc = ({ inDataAsJson }) => {
     let LocalDataAsJson = inDataAsJson;
-    console.log("aaaaaaaaaaaaaa : ", LocalDataAsJson.res);
 
     if ("Type" in LocalDataAsJson) {
         if (LocalDataAsJson.Type === "returnOnlineClients") {
@@ -15,7 +14,7 @@ let StartFunc = ({ inDataAsJson }) => {
 
             $table.bootstrapTable("load", LocalDataAsJson.res);
 
-            StartFuncFromPeer({ inDataAsJson: LocalDataAsJson, inws: inws, inClients: inClients });
+            // StartFuncFromPeer({ inDataAsJson: LocalDataAsJson, inws: inws, inClients: inClients });
         };
     };
 

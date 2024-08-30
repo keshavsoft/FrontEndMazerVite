@@ -22,5 +22,10 @@
     "name": "chatMessages",
     "url": "./chatMessages.html",
     "icon": "grid-fill"
+  },
+  {
+    "name": "AllUsers",
+    "url": "./AllUsers.html",
+    "icon": "grid-fill"
   }
 ]
