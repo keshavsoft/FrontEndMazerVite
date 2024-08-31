@@ -74,7 +74,17 @@
 </script>
 
 <script src="https://kit.fontawesome.com/dc4c56a335.js" crossorigin="anonymous"></script>
-
+<!-- 
 <script type="module" src="./Js/AllUsersStartChat/StartFunc.js"></script>
-<script type="module" src="./Js/AllUsersStartChat/WebSocket/EntryFile.js"></script>
+<script type="module" src="./Js/AllUsersStartChat/WebSocket/EntryFile.js"></script> -->
+
+<script src="./Js/AllUsersStartChat/main.js"></script>
+
+<!-- <script type="module" src="./Js/AllUsersStartChat/StartFunc.js"></script> -->
+<!-- <script type="module" src="./Js/AllUsersStartChat/WebSocket/EntryFile.js"></script> -->
+
+<script>
+    const worker1 = new SharedWorker("/worker.js");
+</script>
+
 {% endblock %}
