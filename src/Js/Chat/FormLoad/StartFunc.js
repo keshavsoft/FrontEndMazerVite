@@ -14,7 +14,7 @@ function geoFindMe() {
         const latitude = position.coords.latitude;
         const longitude = position.coords.longitude;
         let jVarLocalLocation = {};
-        jVarLocalLocation.type = "myLocation";
+        jVarLocalLocation.Type = "myLocation";
         jVarLocalLocation.latitude = latitude;
         jVarLocalLocation.longitude = longitude;
 
