@@ -1,9 +1,7 @@
-import { StartFunc as SendButtonId } from "./SendButtonId/EntryFile.js";
-// import { StartFunc as SendMessageInputId } from "./SendMessageInputId/EntryFile.js";
+import { StartFunc as RefreshAId } from "./RefreshAId/EntryFile.js";
 
 let StartFunc = () => {
-    SendButtonId();
-    // SendMessageInputId();
+    RefreshAId();
 };
 
 export { StartFunc };
