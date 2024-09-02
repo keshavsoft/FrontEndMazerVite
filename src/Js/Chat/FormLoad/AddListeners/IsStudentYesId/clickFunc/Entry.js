@@ -1,10 +1,12 @@
 let StartFunc = () => {
-    let jVarLocalSendMessageInputId = document.getElementById('SendMessageInputId');
+    console.log("this si clicked");
 
-    webSocket.send(jVarLocalSendMessageInputId.value);
-    jFLocalSendMessage({ inMessageToSend: jVarLocalSendMessageInputId.value });
-    jVarLocalSendMessageInputId.value = "";
-    jVarLocalSendMessageInputId.focus();
+    // let jVarLocalSendMessageInputId = document.getElementById('SendMessageInputId');
+
+    // webSocket.send(jVarLocalSendMessageInputId.value);
+    // jFLocalSendMessage({ inMessageToSend: jVarLocalSendMessageInputId.value });
+    // jVarLocalSendMessageInputId.value = "";
+    // jVarLocalSendMessageInputId.focus();
 };
 
 const jFLocalSendMessage = ({ inMessageToSend }) => {
