@@ -1,7 +1,7 @@
 import { StartFunc as sendMessage } from "./sendMessage.js";
 
 let StartFunc = (event) => {
-    console.log("event : ", event.data);
+    // console.log("incoming message log : ", event.data);
 
     try {
         let jVarLocalParse = JSON.parse(event.data);
@@ -15,7 +15,8 @@ let StartFunc = (event) => {
                 break;
         };
     } catch (error) {
-
+        // console.log("eeeeeeeeeeeeeee log : ", event.data);
+        jFLocalShowMessage({ inMessage: event.data });
     };
 
     // jFLocalShowMessage({ inMessage: event.data });
