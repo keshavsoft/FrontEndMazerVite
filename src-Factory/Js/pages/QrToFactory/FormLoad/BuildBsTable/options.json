@@ -1,9 +1,13 @@
 {
     "idfield": "pk",
     "showFooter": "true",
+    "search": true,
+    "searchHighlight": true,
+    "responseHandler": "responseHandler",
+    "queryParams": "queryParams",
     "data": [],
     "onClickRow": "",
-    "url":"/binV4/StudentNames/Show/DataOnly",
+    "url": "/binV4/StudentNames/Search",
     "columns": [
         {
             "field": "KS-Serial",
