@@ -10,7 +10,8 @@
     "AllTables": "vite build --config vite.config-AllTables.js",
     "Original": "vite build --config vite.config-Original.js",
     "ToFactory": "vite build --config vite.config-Factory.js",
-    "PublicDir": "vite build --config vite.config-PublicDir.js"
+    "PublicDir": "vite build --config vite.config-PublicDir.js",
+    "SubDir": "vite build --config vite.config-SubDir.js"
   },
   "author": "",
   "license": "ISC",
