@@ -24,6 +24,21 @@
     ]
   },
   {
+    "name": "DC",
+    "key": "DC",
+    "icon": "stack",
+    "submenu": [
+      {
+        "name": "ShowAll",
+        "url": "DCShowAll.html"
+      },
+      {
+        "name": "Status",
+        "url": "DCStatus.html"
+      }
+    ]
+  },
+  {
     "name": "QrCodes",
     "key": "QrCodes",
     "icon": "stack",
