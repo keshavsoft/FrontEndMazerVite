@@ -3,11 +3,11 @@
     "showFooter": "true",
     "search": true,
     "searchHighlight": true,
-    "responseHandler": "responseHandler",
-    "queryParams": "queryParams",
     "data": [],
     "onClickRow": "",
-    "url": "/Custom/Clients/Laundry/Today/Reports/QrCodes/All/KKD",
+    "responseHandler": "",
+    "queryParams": "",
+    "url": "/binV4/StudentNames/Search",
     "columns": [
         {
             "field": "KS-Serial",
