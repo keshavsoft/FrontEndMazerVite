@@ -79,7 +79,7 @@ const modulesToCopy = {
 const copyModules = Object.keys(modulesToCopy).map(moduleName => {
     const withDist = modulesToCopy[moduleName]
     return {
-        src: normalizePath(resolve(__dirname, `./node_modules/${moduleName}${withDist ? '/ToFactory' : ''}`)),
+        src: normalizePath(resolve(__dirname, `./node_modules/${moduleName}${withDist ? '/FromBranch' : ''}`)),
         dest: 'assets/extensions',
         rename: moduleName
     }
@@ -89,7 +89,7 @@ build({
     configFile: false,
     build: {
         emptyOutDir: false,
-        outDir: resolve(__dirname, 'ToFactory/assets/compiled/js'),
+        outDir: resolve(__dirname, 'FromBranch/assets/compiled/js'),
         lib: {
             name: 'app',
             formats: ['umd'],
@@ -114,7 +114,7 @@ export default defineConfig((env) => ({
         viteStaticCopy({
             targets: [
                 { src: normalizePath(resolve(__dirname, './src/assets/static')), dest: 'assets' },
-                { src: normalizePath(resolve(__dirname, './ToFactory/assets/compiled/fonts')), dest: 'assets/compiled/css' },
+                { src: normalizePath(resolve(__dirname, './FromBranch/assets/compiled/fonts')), dest: 'assets/compiled/css' },
                 { src: normalizePath(resolve(__dirname, "./node_modules/bootstrap-icons/bootstrap-icons.svg")), dest: 'assets/static/images' },
                 ...copyModules
             ],
@@ -153,7 +153,7 @@ export default defineConfig((env) => ({
         emptyOutDir: false,
         manifest: true,
         target: "chrome58",
-        outDir: resolve(__dirname, 'ToFactory'),
+        outDir: resolve(__dirname, 'FromBranch'),
         rollupOptions: {
             input: files,
             output: {

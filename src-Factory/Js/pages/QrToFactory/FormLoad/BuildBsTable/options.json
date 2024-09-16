@@ -7,7 +7,7 @@
     "queryParams": "queryParams",
     "data": [],
     "onClickRow": "",
-    "url": "/binV4/StudentNames/Search",
+    "url": "/Custom/Clients/Laundry/Today/Reports/QrCodes/All/KKD",
     "columns": [
         {
             "field": "KS-Serial",
