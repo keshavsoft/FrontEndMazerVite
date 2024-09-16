@@ -22,5 +22,24 @@
         "url": "TableAll.html"
       }
     ]
+  },
+  {
+    "name": "QrCodes",
+    "key": "QrCodes",
+    "icon": "stack",
+    "submenu": [
+      {
+        "name": "ShowAll",
+        "url": "QRShowAll.html"
+      },
+      {
+        "name": "TableAll",
+        "url": "QRPending.html"
+      },
+      {
+        "name": "TableAll",
+        "url": "QRCompleted.html"
+      }
+    ]
   }
 ]
