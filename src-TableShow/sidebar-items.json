@@ -9,13 +9,17 @@
     "icon": "grid-fill"
   },
   {
-    "name": "Show",
-    "key": "show",
+    "name": "Url",
+    "key": "url",
     "icon": "stack",
     "submenu": [
       {
-        "name": "Url",
-        "url": "show-Url.html"
+        "name": "Simple",
+        "url": "url-Simple.html"
+      },
+      {
+        "name": "Search",
+        "url": "url-Search.html"
       }
     ]
   }
