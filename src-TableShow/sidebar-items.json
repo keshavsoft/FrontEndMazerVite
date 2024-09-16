@@ -18,6 +18,10 @@
         "url": "url-Simple.html"
       },
       {
+        "name": "SimplePagination",
+        "url": "url-SimplePage.html"
+      },
+      {
         "name": "Search",
         "url": "url-Search.html"
       }
