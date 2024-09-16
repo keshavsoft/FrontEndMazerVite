@@ -1,7 +1,9 @@
+import UrlJson from "./Url.json" with { type: "json" };
+
 let StartFunc = async () => {
     let jVarLocalFilterString = getUrlQueryParams({ inGetKey: "VoucherRef" });
 
-    let jVarLocalFetchUrl = `/bin/Factory/VoucherDetails/RowData/pk/${jVarLocalFilterString}`;
+    let jVarLocalFetchUrl = `${UrlJson.url}/${jVarLocalFilterString}`;
     let response = await fetch(jVarLocalFetchUrl);
     let data = await response.json();
 

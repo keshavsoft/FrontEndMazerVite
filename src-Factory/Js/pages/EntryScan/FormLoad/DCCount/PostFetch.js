@@ -1,3 +1,5 @@
+import UrlJson from "./Url.json" with { type: "json" };
+
 let StartFunc = async () => {
     let jVarLocalFilterString = getUrlQueryParams({ inGetKey: "VoucherRef" });
 
