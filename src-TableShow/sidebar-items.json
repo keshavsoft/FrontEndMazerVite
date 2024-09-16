@@ -22,6 +22,10 @@
         "url": "url-SimplePage.html"
       },
       {
+        "name": "SimplePaginationFooter",
+        "url": "url-SimplePageFooter.html"
+      },
+      {
         "name": "Search",
         "url": "url-Search.html"
       }
