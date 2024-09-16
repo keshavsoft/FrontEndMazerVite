@@ -9,81 +9,13 @@
     "icon": "grid-fill"
   },
   {
-    "name": "Components",
-    "key": "component",
+    "name": "Table",
+    "key": "Table",
     "icon": "stack",
     "submenu": [
       {
         "name": "Accordion",
-        "url": "component-accordion.html"
-      },
-      {
-        "name": "Alert",
-        "url": "component-alert.html"
-      },
-      {
-        "name": "Badge",
-        "url": "component-badge.html"
-      },
-      {
-        "name": "Breadcrumb",
-        "url": "component-breadcrumb.html"
-      },
-      {
-        "name": "Button",
-        "url": "component-button.html"
-      },
-      {
-        "name": "Card",
-        "url": "component-card.html"
-      },
-      {
-        "name": "Carousel",
-        "url": "component-carousel.html"
-      },
-      {
-        "name": "Collapse",
-        "url": "component-collapse.html"
-      },
-      {
-        "name": "Dropdown",
-        "url": "component-dropdown.html"
-      },
-      {
-        "name": "List Group",
-        "url": "component-list-group.html"
-      },
-      {
-        "name": "Modal",
-        "url": "component-modal.html"
-      },
-      {
-        "name": "Navs",
-        "url": "component-navs.html"
-      },
-      {
-        "name": "Pagination",
-        "url": "component-pagination.html"
-      },
-      {
-        "name": "Placeholder",
-        "url": "component-placeholder.html"
-      },
-      {
-        "name": "Progress",
-        "url": "component-progress.html"
-      },
-      {
-        "name": "Spinner",
-        "url": "component-spinner.html"
-      },
-      {
-        "name": "Toasts",
-        "url": "component-toasts.html"
-      },
-      {
-        "name": "Tooltip",
-        "url": "component-tooltip.html"
+        "url": "TableShow.html"
       }
     ]
   },
