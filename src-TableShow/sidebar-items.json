@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Menu",
+    "isTitle": true
+  },
+  {
+    "name": "Dashboard",
+    "url": "index.html",
+    "icon": "grid-fill"
+  },
+  {
+    "name": "Show",
+    "key": "show",
+    "icon": "stack",
+    "submenu": [
+      {
+        "name": "Url",
+        "url": "show-Url.html"
+      }
+    ]
+  }
+]
