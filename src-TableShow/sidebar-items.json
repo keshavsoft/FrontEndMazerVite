@@ -30,5 +30,16 @@
         "url": "url-Search.html"
       }
     ]
+  },
+  {
+    "name": "FetchColumns",
+    "key": "fetchColumns",
+    "icon": "stack",
+    "submenu": [
+      {
+        "name": "Simple",
+        "url": "fetchColumns-Simple.html"
+      }
+    ]
   }
 ]
