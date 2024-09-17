@@ -1,0 +1,54 @@
+{
+    "idfield": "pk",
+    "showFooter": "true",
+    "data": [],
+    "onClickRow": "",
+    "responseHandler": "",
+    "queryParams": "",
+    "url": "/binV4/StudentNames/Search",
+    "columns": [
+        {
+            "field": "KS-Serial",
+            "title": "#",
+            "formatter": "jFLocalSerialColumn"
+        },
+        {
+            "field": "StudentName",
+            "title": "StudentName",
+            "filtercontrol": "select"
+        },
+        {
+            "field": "Mobile",
+            "title": "Mobile"
+        },
+        {
+            "field": "Email",
+            "title": "Email"
+        },
+        {
+            "field": "OrderDateTime",
+            "title": "Order DateTime",
+            "filtercontrol": "select"
+        },
+        {
+            "field": "DeliveryDateTime",
+            "title": "DeliveryDateTime",
+            "filtercontrol": "select"
+        },
+        {
+            "field": "location",
+            "title": "DC Factory",
+            "filtercontrol": "select"
+        },
+        {
+            "field": "Status",
+            "title": "Status",
+            "filtercontrol": "select"
+        },
+        {
+            "title": "TimeSpan",
+            "field": "TimeSpan",
+            "filtercontrol": "select"
+        }
+    ]
+}
