@@ -3,9 +3,9 @@ import KeysJson from './Keys.json' with {type: 'json'};
 let StartFunc = () => {
     let inDataToInsert = {}
     inDataToInsert.references = {};
-    inDataToInsert.references.FilterObject = {};
-    inDataToInsert.references.FilterObject.VoucherRef = jFLocalFromDomInputVoucherRefId();
-    inDataToInsert.references.FilterObject.QrCodeId = jFLocalFromDomInputPkId();
+    // inDataToInsert.references.FilterObject = {};
+    // inDataToInsert.references.FilterObject.VoucherRef = jFLocalFromDomInputVoucherRefId();
+    // inDataToInsert.references.FilterObject.QrCodeId = jFLocalFromDomInputPkId();
 
     inDataToInsert.InSertObject = {};
     inDataToInsert.InSertObject.QrCodeId = jFLocalFromDomInputPkId();
@@ -22,7 +22,7 @@ let StartFunc = () => {
     inDataToInsert.InSertObject.OrderDate = jFLocalFromDomOrderDateId();
     inDataToInsert.InSertObject.DeliveryDate = jFLocalFromDomDeliveryDateId();
 
-    KeysJson.body = JSON.stringify(inDataToInsert);
+    KeysJson.body = JSON.stringify(inDataToInsert.InSertObject);
     return KeysJson;
 };
 

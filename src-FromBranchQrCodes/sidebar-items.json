@@ -1,0 +1,21 @@
+[
+  {
+    "name": "QrCodes",
+    "key": "QrCodes",
+    "icon": "stack",
+    "submenu": [
+      {
+        "name": "ShowAll",
+        "url": "QRShowAll.html"
+      },
+      {
+        "name": "Pending",
+        "url": "QRPending.html"
+      },
+      {
+        "name": "Completed",
+        "url": "QRCompleted.html"
+      }
+    ]
+  }
+]
