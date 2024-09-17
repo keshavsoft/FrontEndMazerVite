@@ -12,7 +12,8 @@
     "ToFactory": "vite build --config vite.config-Factory.js",
     "PublicDir": "vite build --config vite.config-PublicDir.js",
     "SubDir": "vite build --config vite.config-SubDir.js",
-    "TableShow": "vite build --config vite.config-TableShow.js"
+    "TableShow": "vite build --config vite.config-TableShow.js",
+    "Vertical": "vite build --config vite.config-Vertical.js"
   },
   "author": "",
   "license": "ISC",
