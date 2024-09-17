@@ -35,12 +35,14 @@
         },
         {
             "field": "QrCodeDetailsCount",
-            "title": "Sent Items",
-            "filtercontrol": "select"
+            "title": "Sent",
+            "filtercontrol": "select",
+            "footerFormatter":"totalFormatter"
         },
         {
             "field": "ItemDetails",
-            "title": "Scaned Items"
+            "title": "Scanned",
+            "footerFormatter":"totalFormatter"
         }
     ]
 }
