@@ -3,10 +3,10 @@
     "showFooter": "true",
     "search": true,
     "searchHighlight": true,
-    "responseHandler": "responseHandler",
-    "queryParams": "queryParams",
     "data": [],
     "onClickRow": "",
+    "responseHandler": "",
+    "queryParams": "",
     "columns": [
         {
             "field": "KS-Serial",
@@ -56,7 +56,7 @@
             "filtercontrol": "select"
         },
         {
-            "title": "TimeSpan",
+            "title": "GenSpan",
             "field": "TimeSpan",
             "filtercontrol": "select"
             
