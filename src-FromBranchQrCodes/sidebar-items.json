@@ -13,7 +13,7 @@
         "url": "QRPending.html"
       },
       {
-        "name": "Completed",
+        "name": "Scanned",
         "url": "QRCompleted.html"
       }
     ]

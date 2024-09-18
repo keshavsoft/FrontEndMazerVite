@@ -3,15 +3,27 @@
     "showFooter": "true",
     "search": true,
     "searchHighlight": true,
-    "responseHandler": "responseHandler",
-    "queryParams": "queryParams",
     "data": [],
     "onClickRow": "",
+    "responseHandler": "",
+    "queryParams": "",
     "columns": [
         {
             "field": "KS-Serial",
             "title": "#",
             "formatter": "jFLocalSerialColumn"
+        },
+        {
+            "field": "OrderNumber",
+            "title": "Order #"
+        },
+        {
+            "field": "OrderDate",
+            "title": "Order Date"
+        },
+        {
+            "field": "DeliveryDate",
+            "title": "Delivery Date"
         },
         {
             "field": "QrCodeId",
