@@ -9,21 +9,6 @@
     "icon": "grid-fill"
   },
   {
-    "name": "Table",
-    "key": "Table",
-    "icon": "stack",
-    "submenu": [
-      {
-        "name": "TableShow",
-        "url": "TableShow.html"
-      },
-      {
-        "name": "TableAll",
-        "url": "TableAll.html"
-      }
-    ]
-  },
-  {
     "name": "DC",
     "key": "DC",
     "icon": "stack",
@@ -39,22 +24,25 @@
     ]
   },
   {
-    "name": "QrCodes",
-    "key": "QrCodes",
-    "icon": "stack",
+    "name": "FactoryReturn",
+    "key": "Return",
+    "icon": "bi bi-arrow-counterclockwise",
     "submenu": [
       {
-        "name": "ShowAll",
-        "url": "QRShowAll.html"
+        "name": "Create",
+        "url": "ReturnCreate.html"
       },
       {
-        "name": "TableAll",
-        "url": "QRPending.html"
-      },
-      {
-        "name": "TableAll",
-        "url": "QRCompleted.html"
+       "name": "Show",
+        "url": "ReturnDC.html" 
       }
     ]
+  },
+  {
+    "name": "QRCodes",
+    "key": "QRCodes",
+    "icon": "bi bi-qr-code",
+    "url":"/FromBranchQrCodes/QRShowAll.html"
   }
+
 ]
