@@ -4,7 +4,11 @@ let StartFunc = () => {
     let jVarLocalForm = document.getElementById("FormId");
     var formData = new FormData(jVarLocalForm);
 
-    KeysJson.body = formData;
+    let formObject = {};
+    formData.forEach((value, key) => {
+        formObject[key] = value;
+    });
+    KeysJson.body = JSON.stringify(formObject);
 
     return KeysJson;
 };
