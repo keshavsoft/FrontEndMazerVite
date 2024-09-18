@@ -7,15 +7,13 @@ let StartFunc = async () => {
 
     if (a && b) {
         let jVarLocalDcData = a;
-        console.log("jVarLocalDcData:",jVarLocalDcData);
         
         let jVarLocalItemsData = b;
-        console.log("jVarLocalItemsData",jVarLocalItemsData);
         
         // let jVarLocalFactoryName = getUrlQueryParams({ inGetKey: "BranchName" });
         let jVarLocalFactoryName = localStorage.getItem("FactoryName");
 
-        let LocalBranchFilterData = jVarLocalDcData.filter(e => e.Factory == jVarLocalFactoryName)
+        let LocalBranchFilterData = jVarLocalDcData.filter(e => e.FactoryName == jVarLocalFactoryName)
         let LocalScanedFilterData = jVarLocalItemsData.filter(e => e.DCFactory == jVarLocalFactoryName)
 
         let jVarLocalData = jFLocalItemsData({
