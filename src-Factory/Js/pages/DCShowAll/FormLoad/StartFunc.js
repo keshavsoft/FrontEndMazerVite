@@ -1,11 +1,10 @@
-import { StartFunc as StartFuncFromUrlParams } from "./FromUrlParams/EntryFile.js";
-import { StartFunc as StartFuncListenerFuncs } from "./ListenerFuncs/StartFunc.js";
 import { StartFunc as StartFuncBuildBsTable } from "./BuildBsTable/EntryFile.js";
+import { StartFunc as StartFuncFromUrlParams } from "./FromUrlParams/EntryFile";
+
 
 const StartFunc = () => {
-    StartFuncBuildBsTable();
     StartFuncFromUrlParams();
-    StartFuncListenerFuncs();
+    StartFuncBuildBsTable();
 };
 
 export { StartFunc };
