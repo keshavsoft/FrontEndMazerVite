@@ -7,6 +7,7 @@
     "onClickRow": "",
     "responseHandler": "",
     "queryParams": "",
+    "rowStyle": "rowStyle",
     "columns": [
         {
             "field": "KS-Serial",
@@ -58,6 +59,11 @@
         {
             "title": "Status",
             "field": "Status",
+            "filtercontrol": "select"
+        },
+        {
+            "title": "Return",
+            "field": "EntryReturnStarus",
             "filtercontrol": "select"
         },
         {

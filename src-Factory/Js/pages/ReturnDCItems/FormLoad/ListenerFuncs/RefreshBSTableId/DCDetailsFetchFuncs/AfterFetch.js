@@ -40,10 +40,6 @@ let jFLocalToInnerHtmlDateTextId = ({ inDateTextId }) => {
 //     jVarLocalFactoryTextId.innerHTML = inFactoryTextId;
 // };
 
-let jFLocalToInnerHtmlDCBranchNameTextId = ({ inDCBranchNameTextId }) => {
-    let jVarLocalHtmlId = 'DCBranchNameTextId';
-    let jVarLocalDCBranchNameTextId = document.getElementById(jVarLocalHtmlId);
-    jVarLocalDCBranchNameTextId.innerHTML = inDCBranchNameTextId;
-};
+
 
 export { StartFunc };

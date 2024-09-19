@@ -43,8 +43,8 @@
             "filtercontrol": "select"
         },
         {
-            "title": "Rate",
-            "field": "Rate",
+            "title": "Description",
+            "field": "Description",
             "filtercontrol": "select"
         },
         {

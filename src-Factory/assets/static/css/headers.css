@@ -3,39 +3,39 @@
   background-color: rgba(0, 0, 0, .1);
   border: solid rgba(0, 0, 0, .15);
   border-width: 1px 0;
-  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15)
 }
 
 .form-control-dark {
   color: #fff;
   background-color: var(--bs-dark);
-  border-color: var(--bs-gray);
+  border-color: var(--bs-gray)
 }
+
 .form-control-dark:focus {
   color: #fff;
   background-color: var(--bs-dark);
   border-color: #fff;
-  box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .25);
+  box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .25)
 }
 
 .bi {
   vertical-align: -.125em;
-  fill: currentColor;
+  fill: currentColor
 }
 
 .text-small {
-  font-size: 85%;
+  font-size: 85%
 }
 
 .dropdown-toggle {
-  outline: 0;
+  outline: 0
 }
 
-.nav-link:hover{
+.nav-link:hover {
   font-weight: 600;
-  background-color:rgba(255, 255, 255, .25);
-  border-radius: 9px;
- 
+  background-color: rgba(255, 255, 255, .25);
+  border-radius: 9px
 }
 
 .rounded-button {
@@ -44,37 +44,35 @@
   border-radius: 50%;
   width: 60px;
   height: 60px;
-  background-color: rgb(232, 14, 14); /* Blue color */
-  color: white;
+  background-color: #0a8f51;
+  color: #fff;
   font-size: 24px;
   line-height: 60px;
   text-align: center;
   cursor: pointer;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
-  transition: all 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
+  transition: all .3s ease
 }
 
-/* Positioning styles */
 .right {
   right: 20px;
   top: 50%;
-  transform: translateY(-50%);
+  transform: translateY(-50%)
 }
 
 .left {
   left: 20px;
   top: 50%;
-  transform: translateY(-50%);
+  transform: translateY(-50%)
 }
 
 .bottom {
   bottom: 60px;
   right: 86%;
-  transform: translateX(-50%);
+  transform: translate(-50%)
 }
 
-/* Hover effect */
 .rounded-button:hover {
-  background-color: rgb(5, 80, 43); /* Darker shade of blue */
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+  background-color: #05502b;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, .4)
 }

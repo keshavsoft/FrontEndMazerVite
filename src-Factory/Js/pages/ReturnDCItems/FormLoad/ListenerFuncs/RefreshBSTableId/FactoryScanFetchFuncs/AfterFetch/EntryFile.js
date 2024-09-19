@@ -4,7 +4,7 @@ let StartFunc = ({ inDataToShow }) => {
     let jVarLocalFactoryName = localStorage.getItem("FactoryName");
 
     if (jVarLocalVoucherRef === '' || jVarLocalVoucherRef === null) swal.fire({ title: "No VoucherRef in Params", icon: "error" })
-    let LocalVoucherFilterData = jVarLocalDataToShow.filter(e => e.VoucherRef == jVarLocalVoucherRef && e.DCFactory == jVarLocalFactoryName);
+    let LocalVoucherFilterData = jVarLocalDataToShow.filter(e => e.VoucherRef == jVarLocalVoucherRef && e.FactorySelected == jVarLocalFactoryName);
     if (LocalVoucherFilterData.length === 0 || jVarLocalVoucherRef === null) swal.fire({ title: "No Data", icon: "error" })
 
     jFLocalHideSpinner();

@@ -1,21 +1,22 @@
 [
   {
-    "name": "QrCodes",
-    "key": "QrCodes",
-    "icon": "stack",
-    "submenu": [
-      {
-        "name": "ShowAll",
-        "url": "QRShowAll.html"
-      },
-      {
-        "name": "Pending",
-        "url": "QRPending.html"
-      },
-      {
-        "name": "Scanned",
-        "url": "QRCompleted.html"
-      }
-    ]
+    "name": "Dashboard",
+    "icon": "bi bi-grid",
+    "url": "/FromBranch/"
+  },
+  {
+    "name": "All",
+    "url": "QRShowAll.html",
+    "icon": "bi bi-circle-fill"
+  },
+  {
+    "name": "Pending",
+    "url": "QRPending.html",
+    "icon": "bi bi-circle-half"
+  },
+  {
+    "name": "Scanned",
+    "url": "QRCompleted.html",
+    "icon": "bi bi-circle"
   }
 ]

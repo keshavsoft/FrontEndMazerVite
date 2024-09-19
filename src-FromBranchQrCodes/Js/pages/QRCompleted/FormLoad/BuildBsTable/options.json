@@ -7,6 +7,7 @@
     "onClickRow": "",
     "responseHandler": "",
     "queryParams": "",
+    "rowStyle": "",
     "columns": [
         {
             "field": "KS-Serial",
@@ -56,10 +57,14 @@
             "filtercontrol": "select"
         },
         {
-            "title": "GenSpan",
+            "title": "Return",
+            "field": "EntryReturnStarus",
+            "filtercontrol": "select"
+        },
+        {
+            "title": "TimeSpan",
             "field": "TimeSpan",
             "filtercontrol": "select"
-            
         }
     ]
 }
