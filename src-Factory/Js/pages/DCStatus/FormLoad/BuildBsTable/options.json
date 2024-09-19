@@ -20,28 +20,31 @@
         },
         {
             "field": "BranchName",
-            "title": "Branch Name",
+            "title": "FromBranch ",
             "filtercontrol": "select"
         },
         {
             "field": "Factory",
-            "title": "Factory",
+            "title": "ToFactory",
             "filtercontrol": "select"
         },
         {
-            "field": "Date",
-            "title": "Date",
+            "field": "TimeSpan",
+            "title": "TimeSpan",
+            "formatter":"jFTimeSpan",
             "filtercontrol": "select"
         },
         {
             "field": "QrCodeDetailsCount",
             "title": "Sent",
+            "align":"right",
             "filtercontrol": "select",
             "footerFormatter":"totalFormatter"
         },
         {
             "field": "ItemDetails",
             "title": "Scanned",
+            "align":"right",
             "footerFormatter":"totalFormatter"
         }
     ]

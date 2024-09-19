@@ -3,10 +3,11 @@
     "showFooter": "true",
     "search": true,
     "searchHighlight": true,
-    "responseHandler": "responseHandler",
-    "queryParams": "queryParams",
     "data": [],
     "onClickRow": "",
+    "responseHandler": "responseHandler",
+    "queryParams": "queryParams",
+    "rowStyle": "rowStyle",
     "columns": [
         {
             "field": "KS-Serial",
