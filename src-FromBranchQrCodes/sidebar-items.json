@@ -18,5 +18,15 @@
     "name": "Scanned",
     "url": "QRCompleted.html",
     "icon": "bi bi-circle"
+  },
+  {
+    "name": "Return",
+    "url": "QRReturn.html",
+    "icon": "bi bi-circle"
+  },
+  {
+    "name": "Filter",
+    "url": "QRFilter.html",
+    "icon": "bi bi-circle"
   }
 ]
