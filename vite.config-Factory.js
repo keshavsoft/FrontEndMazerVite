@@ -31,6 +31,7 @@ const getVariables = (mode) => {
         if (filename.includes('layouts')) filename = `layouts/${filename}`
         variables[filename + '.html'] = {
             web_title: "Mazer Admin Dashboard",
+            filename: filename + '.html',
             sidebarItems,
             horizontalMenuItems,
             isDev: mode === 'development'
