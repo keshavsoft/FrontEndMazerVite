@@ -40,11 +40,6 @@
             "filtercontrol": "select"
         },
         {
-            "field": "DateTime",
-            "title": "Date Time",
-            "filtercontrol": "select"
-        },
-        {
             "title": "Items",
             "formatter":"ItemsFormatter",
             "footerFormatter":"priceFormatter"
