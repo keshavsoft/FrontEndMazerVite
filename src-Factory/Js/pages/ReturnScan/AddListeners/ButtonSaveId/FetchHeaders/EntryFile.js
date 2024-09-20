@@ -22,6 +22,7 @@ let StartFunc = () => {
     inDataToInsert.InSertObject.OrderDate = jFLocalFromDomOrderDateId();
     inDataToInsert.InSertObject.DeliveryDate = jFLocalFromDomDeliveryDateId();
     inDataToInsert.InSertObject.Description = jFLocalDescription();
+    inDataToInsert.InSertObject.FactoryName = localStorage.getItem("FactoryName");
 
     KeysJson.body = JSON.stringify(inDataToInsert.InSertObject);
     return KeysJson;
