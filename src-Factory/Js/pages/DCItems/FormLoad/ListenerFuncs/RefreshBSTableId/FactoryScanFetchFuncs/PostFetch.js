@@ -1,10 +1,21 @@
 import UrlJson from './Url.json' with {type: 'json'};
 let StartFunc = async () => {
-    let jVarLocalFetchUrl = `${UrlJson.url}`;
+let jVarLocalVoucherRef = getUrlQueryParams({ inGetKey: "VoucherRef" });
+
+    let jVarLocalFactoryName=localStorage.getItem("FactoryName")
+    let jVarLocalFetchUrl = `${UrlJson.url}/${jVarLocalFactoryName}/${jVarLocalVoucherRef}`;
     let response = await fetch(jVarLocalFetchUrl);
     let data = await response.json();
 
     return await data;
 };
+
+
+        let getUrlQueryParams = ({ inGetKey }) => {
+            const queryString = window.location.search;
+            const parameters = new URLSearchParams(queryString);
+            const value = parameters.get(inGetKey);
+            return value;
+        };
 
 export { StartFunc };
