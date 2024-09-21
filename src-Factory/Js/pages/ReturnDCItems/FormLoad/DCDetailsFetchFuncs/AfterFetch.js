@@ -7,7 +7,7 @@ let StartFunc = ({ inDataToShow }) => {
     jFLocalToInnerHtmlDescriptionTextId({ inDescriptionTextId: jVarLocalData.Description });
     jFLocalToInnerHtmlDateTextId({ inDateTextId: jVarLocalData.Date });
     // jFLocalToInnerHtmlFactoryTextId({ inFactoryTextId: jVarLocalData.Factory });
-    jFLocalToInnerHtmlDCBranchNameTextId({ inDCBranchNameTextId: jVarLocalData.BranchName })
+    // jFLocalToInnerHtmlDCBranchNameTextId({ inDCBranchNameTextId: jVarLocalData.BranchName })
 };
 
 let jFLocalToInnerHtmlpkTextId = ({ inpkTextId }) => {

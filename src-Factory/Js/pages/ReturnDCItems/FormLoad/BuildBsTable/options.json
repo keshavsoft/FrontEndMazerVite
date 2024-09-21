@@ -19,17 +19,17 @@
         },
         {
             "field": "OrderNumber",
-            "title": "OrderNumber",
+            "title": "Order #",
             "filtercontrol": "select"
         },
         {
             "title": "OrderDate",
-            "formatter":"jFOrderDate",
+            "field": "OrderDate",
             "filtercontrol": "select"
         },
         {
             "title": "DeliveryDate",
-            "formatter":"jFDeliveryDate",
+            "field": "DeliveryDate",
             "filtercontrol": "select"
         },
         {
@@ -49,7 +49,7 @@
         },
         {
             "title": "Time Span",
-            "formatter": "jFTimeSpan"
+            "field": "TimeSpan"
         }
     ]
 }
