@@ -1,7 +1,6 @@
 let StartFunc = async ({ inFetchResonse }) => {
     let jVarLocalResponseData = await inFetchResonse.json();
 
-
     if (Object.values(jVarLocalResponseData).length > 0) {
         let jVarLocalFetchData = jVarLocalResponseData;
         jVarGlobalPresentViewData2 = jVarLocalFetchData;

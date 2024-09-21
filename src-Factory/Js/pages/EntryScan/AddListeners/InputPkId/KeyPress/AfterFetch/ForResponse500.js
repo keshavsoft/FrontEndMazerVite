@@ -1,5 +1,6 @@
 let StartFunc = async ({ inFetchResonse }) => {
-    
+    let jVarLocalinFetchResonse = await inFetchResonse.text();
+
     let jVarLocalHtmlId = 'InputPkId';
     let jVarLocalInputPkId = document.getElementById(jVarLocalHtmlId);
     let jVarLocalLength = jVarLocalInputPkId.value.trim().length;
@@ -7,7 +8,7 @@ let StartFunc = async ({ inFetchResonse }) => {
 
     Swal.fire({
         icon: "error",
-        title: "No Data"
+        title: `${jVarLocalinFetchResonse}`
     });
 };
 
