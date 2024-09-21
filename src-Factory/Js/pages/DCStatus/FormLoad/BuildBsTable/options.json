@@ -31,19 +31,24 @@
         {
             "field": "TimeSpan",
             "title": "TimeSpan",
-            "formatter":"jFTimeSpan",
             "filtercontrol": "select"
         },
         {
-            "field": "QrCodeDetailsCount",
+            "field": "Sent",
             "title": "Sent",
             "align":"right",
             "filtercontrol": "select",
             "footerFormatter":"totalFormatter"
         },
         {
-            "field": "ItemDetails",
+            "field": "Scanned",
             "title": "Scanned",
+            "align":"right",
+            "footerFormatter":"totalFormatter"
+        },
+        {
+            "field": "Return",
+            "title": "Return",
             "align":"right",
             "footerFormatter":"totalFormatter"
         }
