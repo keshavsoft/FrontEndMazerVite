@@ -14,6 +14,7 @@
     "SubDir": "vite build --config vite.config-SubDir.js",
     "TableShow": "vite build --config vite.config-TableShow.js",
     "FromBranchQrCodes": "vite build --config vite.config-FromBranchQrCodes.js",
+    "FromBranchVoucher": "vite build --config vite.config-FromBranchVoucher.js",
     "Vertical": "vite build --config vite.config-Vertical.js"
   },
   "author": "",

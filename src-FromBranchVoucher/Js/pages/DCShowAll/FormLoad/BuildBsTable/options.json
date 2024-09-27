@@ -1,0 +1,53 @@
+{
+    "idfield": "pk",
+    "showFooter": "true",
+    "search": true,
+    "searchHighlight": true,
+    "data": [],
+    "onClickRow": "",
+    "responseHandler": "responseHandler",
+    "queryParams": "queryParams",
+    "rowStyle": "rowStyle",
+    "columns": [
+        {
+            "field": "KS-Serial",
+            "title": "#",
+            "formatter": "jFLocalSerialColumn"
+        },
+        {
+            "field": "pk",
+            "title": "DC",
+            "filtercontrol": "input"
+        },
+        {
+            "field": "BranchName",
+            "title": "Branch Name",
+            "filtercontrol": "select"
+        },
+        {
+            "field": "Factory",
+            "title": "To Factory",
+            "filtercontrol": "select"
+        },
+        {
+            "field": "Date",
+            "title": "Date",
+            "filtercontrol": "select"
+        },
+        {
+            "field": "Description",
+            "title": "Description",
+            "filtercontrol": "select"
+        },
+        {
+            "title": "Items",
+            "formatter":"ItemsFormatter",
+            "footerFormatter":"priceFormatter"
+        },
+        {
+            "title": "Scan",
+            "field": "operate",
+            "formatter": "operateFormatter"
+        }
+    ]
+}

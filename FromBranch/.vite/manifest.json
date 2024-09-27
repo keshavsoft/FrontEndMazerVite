@@ -1,0 +1,329 @@
+{
+  "../node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff2": {
+    "file": "assets/compiled/fonts/bootstrap-icons.woff2",
+    "src": "../node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff2"
+  },
+  "../src/assets/static/fonts/nunito-latin-300-normal.woff": {
+    "file": "assets/compiled/fonts/nunito-latin-300-normal.woff",
+    "src": "../src/assets/static/fonts/nunito-latin-300-normal.woff"
+  },
+  "../src/assets/static/fonts/nunito-latin-300-normal.woff2": {
+    "file": "assets/compiled/fonts/nunito-latin-300-normal.woff2",
+    "src": "../src/assets/static/fonts/nunito-latin-300-normal.woff2"
+  },
+  "../src/assets/static/fonts/nunito-latin-400-normal.woff": {
+    "file": "assets/compiled/fonts/nunito-latin-400-normal.woff",
+    "src": "../src/assets/static/fonts/nunito-latin-400-normal.woff"
+  },
+  "../src/assets/static/fonts/nunito-latin-400-normal.woff2": {
+    "file": "assets/compiled/fonts/nunito-latin-400-normal.woff2",
+    "src": "../src/assets/static/fonts/nunito-latin-400-normal.woff2"
+  },
+  "../src/assets/static/fonts/nunito-latin-600-normal.woff": {
+    "file": "assets/compiled/fonts/nunito-latin-600-normal.woff",
+    "src": "../src/assets/static/fonts/nunito-latin-600-normal.woff"
+  },
+  "../src/assets/static/fonts/nunito-latin-600-normal.woff2": {
+    "file": "assets/compiled/fonts/nunito-latin-600-normal.woff2",
+    "src": "../src/assets/static/fonts/nunito-latin-600-normal.woff2"
+  },
+  "../src/assets/static/fonts/nunito-latin-700-normal.woff": {
+    "file": "assets/compiled/fonts/nunito-latin-700-normal.woff",
+    "src": "../src/assets/static/fonts/nunito-latin-700-normal.woff"
+  },
+  "../src/assets/static/fonts/nunito-latin-700-normal.woff2": {
+    "file": "assets/compiled/fonts/nunito-latin-700-normal.woff2",
+    "src": "../src/assets/static/fonts/nunito-latin-700-normal.woff2"
+  },
+  "../src/assets/static/fonts/nunito-latin-800-normal.woff": {
+    "file": "assets/compiled/fonts/nunito-latin-800-normal.woff",
+    "src": "../src/assets/static/fonts/nunito-latin-800-normal.woff"
+  },
+  "../src/assets/static/fonts/nunito-latin-800-normal.woff2": {
+    "file": "assets/compiled/fonts/nunito-latin-800-normal.woff2",
+    "src": "../src/assets/static/fonts/nunito-latin-800-normal.woff2"
+  },
+  "DCItems.html": {
+    "file": "assets/compiled/js/DCItems.js",
+    "name": "DCItems",
+    "src": "DCItems.html",
+    "isEntry": true,
+    "imports": [
+      "_modulepreload-polyfill.js"
+    ],
+    "css": [
+      "assets/compiled/css/app-dark.css"
+    ],
+    "assets": [
+      "assets/compiled/fonts/bootstrap-icons.woff2",
+      "assets/compiled/fonts/nunito-latin-300-normal.woff2",
+      "assets/compiled/fonts/nunito-latin-300-normal.woff",
+      "assets/compiled/fonts/nunito-latin-400-normal.woff2",
+      "assets/compiled/fonts/nunito-latin-400-normal.woff",
+      "assets/compiled/fonts/nunito-latin-600-normal.woff2",
+      "assets/compiled/fonts/nunito-latin-600-normal.woff",
+      "assets/compiled/fonts/nunito-latin-700-normal.woff2",
+      "assets/compiled/fonts/nunito-latin-700-normal.woff",
+      "assets/compiled/fonts/nunito-latin-800-normal.woff2",
+      "assets/compiled/fonts/nunito-latin-800-normal.woff",
+      "assets/compiled/svg/favicon.svg",
+      "assets/compiled/png/favicon.png"
+    ]
+  },
+  "DCShowAll.html": {
+    "file": "assets/compiled/js/DCShowAll.js",
+    "name": "DCShowAll",
+    "src": "DCShowAll.html",
+    "isEntry": true,
+    "imports": [
+      "_modulepreload-polyfill.js"
+    ],
+    "css": [
+      "assets/compiled/css/app-dark.css"
+    ],
+    "assets": [
+      "assets/compiled/fonts/bootstrap-icons.woff2",
+      "assets/compiled/fonts/nunito-latin-300-normal.woff2",
+      "assets/compiled/fonts/nunito-latin-300-normal.woff",
+      "assets/compiled/fonts/nunito-latin-400-normal.woff2",
+      "assets/compiled/fonts/nunito-latin-400-normal.woff",
+      "assets/compiled/fonts/nunito-latin-600-normal.woff2",
+      "assets/compiled/fonts/nunito-latin-600-normal.woff",
+      "assets/compiled/fonts/nunito-latin-700-normal.woff2",
+      "assets/compiled/fonts/nunito-latin-700-normal.woff",
+      "assets/compiled/fonts/nunito-latin-800-normal.woff2",
+      "assets/compiled/fonts/nunito-latin-800-normal.woff",
+      "assets/compiled/svg/favicon.svg",
+      "assets/compiled/png/favicon.png",
+      "assets/compiled/jpg/7.jpg"
+    ]
+  },
+  "DCStatus.html": {
+    "file": "assets/compiled/js/DCStatus.js",
+    "name": "DCStatus",
+    "src": "DCStatus.html",
+    "isEntry": true,
+    "imports": [
+      "_modulepreload-polyfill.js"
+    ],
+    "css": [
+      "assets/compiled/css/app-dark.css"
+    ],
+    "assets": [
+      "assets/compiled/fonts/bootstrap-icons.woff2",
+      "assets/compiled/fonts/nunito-latin-300-normal.woff2",
+      "assets/compiled/fonts/nunito-latin-300-normal.woff",
+      "assets/compiled/fonts/nunito-latin-400-normal.woff2",
+      "assets/compiled/fonts/nunito-latin-400-normal.woff",
+      "assets/compiled/fonts/nunito-latin-600-normal.woff2",
+      "assets/compiled/fonts/nunito-latin-600-normal.woff",
+      "assets/compiled/fonts/nunito-latin-700-normal.woff2",
+      "assets/compiled/fonts/nunito-latin-700-normal.woff",
+      "assets/compiled/fonts/nunito-latin-800-normal.woff2",
+      "assets/compiled/fonts/nunito-latin-800-normal.woff",
+      "assets/compiled/svg/favicon.svg",
+      "assets/compiled/png/favicon.png"
+    ]
+  },
+  "EntryScan.html": {
+    "file": "assets/compiled/js/EntryScan.js",
+    "name": "EntryScan",
+    "src": "EntryScan.html",
+    "isEntry": true,
+    "imports": [
+      "_modulepreload-polyfill.js"
+    ],
+    "css": [
+      "assets/compiled/css/EntryScan.css"
+    ]
+  },
+  "ReturnCreate.html": {
+    "file": "assets/compiled/js/ReturnCreate.js",
+    "name": "ReturnCreate",
+    "src": "ReturnCreate.html",
+    "isEntry": true,
+    "imports": [
+      "_modulepreload-polyfill.js"
+    ],
+    "css": [
+      "assets/compiled/css/app-dark.css"
+    ],
+    "assets": [
+      "assets/compiled/fonts/bootstrap-icons.woff2",
+      "assets/compiled/fonts/nunito-latin-300-normal.woff2",
+      "assets/compiled/fonts/nunito-latin-300-normal.woff",
+      "assets/compiled/fonts/nunito-latin-400-normal.woff2",
+      "assets/compiled/fonts/nunito-latin-400-normal.woff",
+      "assets/compiled/fonts/nunito-latin-600-normal.woff2",
+      "assets/compiled/fonts/nunito-latin-600-normal.woff",
+      "assets/compiled/fonts/nunito-latin-700-normal.woff2",
+      "assets/compiled/fonts/nunito-latin-700-normal.woff",
+      "assets/compiled/fonts/nunito-latin-800-normal.woff2",
+      "assets/compiled/fonts/nunito-latin-800-normal.woff",
+      "assets/compiled/svg/favicon.svg",
+      "assets/compiled/png/favicon.png"
+    ]
+  },
+  "ReturnDC.html": {
+    "file": "assets/compiled/js/ReturnDC.js",
+    "name": "ReturnDC",
+    "src": "ReturnDC.html",
+    "isEntry": true,
+    "imports": [
+      "_modulepreload-polyfill.js"
+    ],
+    "css": [
+      "assets/compiled/css/app-dark.css"
+    ],
+    "assets": [
+      "assets/compiled/fonts/bootstrap-icons.woff2",
+      "assets/compiled/fonts/nunito-latin-300-normal.woff2",
+      "assets/compiled/fonts/nunito-latin-300-normal.woff",
+      "assets/compiled/fonts/nunito-latin-400-normal.woff2",
+      "assets/compiled/fonts/nunito-latin-400-normal.woff",
+      "assets/compiled/fonts/nunito-latin-600-normal.woff2",
+      "assets/compiled/fonts/nunito-latin-600-normal.woff",
+      "assets/compiled/fonts/nunito-latin-700-normal.woff2",
+      "assets/compiled/fonts/nunito-latin-700-normal.woff",
+      "assets/compiled/fonts/nunito-latin-800-normal.woff2",
+      "assets/compiled/fonts/nunito-latin-800-normal.woff",
+      "assets/compiled/svg/favicon.svg",
+      "assets/compiled/png/favicon.png",
+      "assets/compiled/jpg/7.jpg"
+    ]
+  },
+  "ReturnDCItems.html": {
+    "file": "assets/compiled/js/ReturnDCItems.js",
+    "name": "ReturnDCItems",
+    "src": "ReturnDCItems.html",
+    "isEntry": true,
+    "imports": [
+      "_modulepreload-polyfill.js"
+    ],
+    "css": [
+      "assets/compiled/css/app-dark.css"
+    ],
+    "assets": [
+      "assets/compiled/fonts/bootstrap-icons.woff2",
+      "assets/compiled/fonts/nunito-latin-300-normal.woff2",
+      "assets/compiled/fonts/nunito-latin-300-normal.woff",
+      "assets/compiled/fonts/nunito-latin-400-normal.woff2",
+      "assets/compiled/fonts/nunito-latin-400-normal.woff",
+      "assets/compiled/fonts/nunito-latin-600-normal.woff2",
+      "assets/compiled/fonts/nunito-latin-600-normal.woff",
+      "assets/compiled/fonts/nunito-latin-700-normal.woff2",
+      "assets/compiled/fonts/nunito-latin-700-normal.woff",
+      "assets/compiled/fonts/nunito-latin-800-normal.woff2",
+      "assets/compiled/fonts/nunito-latin-800-normal.woff",
+      "assets/compiled/svg/favicon.svg",
+      "assets/compiled/png/favicon.png"
+    ]
+  },
+  "ReturnScan.html": {
+    "file": "assets/compiled/js/ReturnScan.js",
+    "name": "ReturnScan",
+    "src": "ReturnScan.html",
+    "isEntry": true,
+    "imports": [
+      "_modulepreload-polyfill.js"
+    ],
+    "css": [
+      "assets/compiled/css/ReturnScan.css"
+    ]
+  },
+  "TableShow.html": {
+    "file": "assets/compiled/js/TableShow.js",
+    "name": "TableShow",
+    "src": "TableShow.html",
+    "isEntry": true,
+    "imports": [
+      "_modulepreload-polyfill.js"
+    ],
+    "css": [
+      "assets/compiled/css/app-dark.css"
+    ],
+    "assets": [
+      "assets/compiled/fonts/bootstrap-icons.woff2",
+      "assets/compiled/fonts/nunito-latin-300-normal.woff2",
+      "assets/compiled/fonts/nunito-latin-300-normal.woff",
+      "assets/compiled/fonts/nunito-latin-400-normal.woff2",
+      "assets/compiled/fonts/nunito-latin-400-normal.woff",
+      "assets/compiled/fonts/nunito-latin-600-normal.woff2",
+      "assets/compiled/fonts/nunito-latin-600-normal.woff",
+      "assets/compiled/fonts/nunito-latin-700-normal.woff2",
+      "assets/compiled/fonts/nunito-latin-700-normal.woff",
+      "assets/compiled/fonts/nunito-latin-800-normal.woff2",
+      "assets/compiled/fonts/nunito-latin-800-normal.woff",
+      "assets/compiled/svg/favicon.svg",
+      "assets/compiled/png/favicon.png"
+    ]
+  },
+  "_StartFunc.js": {
+    "file": "assets/compiled/js/StartFunc.js",
+    "name": "StartFunc"
+  },
+  "_app-dark.js": {
+    "file": "assets/compiled/css/app-dark.css",
+    "src": "_app-dark.js"
+  },
+  "_modulepreload-polyfill.js": {
+    "file": "assets/compiled/js/modulepreload-polyfill.js",
+    "name": "modulepreload-polyfill"
+  },
+  "assets/static/fonts/Iconly---Bold.eot": {
+    "file": "assets/compiled/eot/Iconly---Bold.eot",
+    "src": "assets/static/fonts/Iconly---Bold.eot"
+  },
+  "assets/static/fonts/Iconly---Bold.svg": {
+    "file": "assets/compiled/svg/Iconly---Bold.svg",
+    "src": "assets/static/fonts/Iconly---Bold.svg"
+  },
+  "assets/static/fonts/Iconly---Bold.ttf": {
+    "file": "assets/compiled/fonts/Iconly---Bold.ttf",
+    "src": "assets/static/fonts/Iconly---Bold.ttf"
+  },
+  "assets/static/fonts/Iconly---Bold.woff": {
+    "file": "assets/compiled/fonts/Iconly---Bold.woff",
+    "src": "assets/static/fonts/Iconly---Bold.woff"
+  },
+  "assets/static/images/faces/1.jpg": {
+    "file": "assets/compiled/jpg/1.jpg",
+    "src": "assets/static/images/faces/1.jpg"
+  },
+  "assets/static/images/faces/2.jpg": {
+    "file": "assets/compiled/jpg/2.jpg",
+    "src": "assets/static/images/faces/2.jpg"
+  },
+  "assets/static/images/faces/3.jpg": {
+    "file": "assets/compiled/jpg/3.jpg",
+    "src": "assets/static/images/faces/3.jpg"
+  },
+  "assets/static/images/faces/4.jpg": {
+    "file": "assets/compiled/jpg/4.jpg",
+    "src": "assets/static/images/faces/4.jpg"
+  },
+  "assets/static/images/faces/5.jpg": {
+    "file": "assets/compiled/jpg/5.jpg",
+    "src": "assets/static/images/faces/5.jpg"
+  },
+  "assets/static/images/faces/7.jpg": {
+    "file": "assets/compiled/jpg/7.jpg",
+    "src": "assets/static/images/faces/7.jpg"
+  },
+  "assets/static/images/faces/8.jpg": {
+    "file": "assets/compiled/jpg/8.jpg",
+    "src": "assets/static/images/faces/8.jpg"
+  },
+  "assets/static/images/logo/favicon.png": {
+    "file": "assets/compiled/png/favicon.png",
+    "src": "assets/static/images/logo/favicon.png"
+  },
+  "assets/static/images/logo/favicon.svg": {
+    "file": "assets/compiled/svg/favicon.svg",
+    "src": "assets/static/images/logo/favicon.svg"
+  },
+  "index.html": {
+    "file": "assets/compiled/css/index.css",
+    "src": "index.html"
+  }
+}
