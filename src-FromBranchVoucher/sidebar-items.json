@@ -42,7 +42,7 @@
     "name": "QRCodes",
     "key": "QRCodes",
     "icon": "bi bi-qr-code",
-    "url":"/FromBranchQrCodes/QRShowAll.html"
+    "url":"/Factory/FromBranchQrCodes/QRShowAll.html"
   }
 
 ]
