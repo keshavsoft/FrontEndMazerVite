@@ -1,6 +1,6 @@
 {% set title = 'Table' %}
 {% set filename = 'table.html' %}
-{% extends 'src-FromBranchVoucher/layouts/master.html' %}
+{% extends 'src-FromBranchVoucher/layouts/masterWithImage.html' %}
 
 {% block content %}
 <div class="page-heading">
@@ -46,7 +46,7 @@
                                         </div>
                                         <div class="col-md-8 form-group">
                                             <input type="text" id="Description" class="form-control" name="Description"
-                                                placeholder="" required>
+                                                placeholder="" required autofocus>
                                         </div>
                                         <div class="col-md-4">
                                             <label for="FactoryName">FactroyName</label>
