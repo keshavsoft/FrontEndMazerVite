@@ -1,7 +1,7 @@
 let StartFunc = ({ inDataToShow }) => {
     let jVarLocalData = inDataToShow;
 
-    jFLocalToInnerHtmlpkTextId({ inpkTextId: jVarLocalData.RowCount });
+    jFLocalToInnerHtmlpkTextId({ inpkTextId: jVarLocalData });
 };
 
 let jFLocalToInnerHtmlpkTextId = ({ inpkTextId }) => {
