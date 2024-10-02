@@ -24,7 +24,7 @@
         </symbol>
     </svg>
     <button id="ParentId" class="rounded-button bottom">
-        <a href="./DCShowAll.html"  class="link-light">
+        <a href="./DCShowAll.html" class="link-light">
             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="20" fill="currentColor"
                 class="bi bi-arrow-90deg-left" viewBox="0 0 16 16">
                 <path fill-rule="evenodd"
@@ -135,7 +135,7 @@
 
                 </div>
                 <div class="col">
-                    <div class="card mt-2 border-success">
+                    <div class="card mt-2">
                         <div class="card-header">
                             <h3>Scan Qrcode- <label id="BranchNameId"></label></h3>
                         </div>
@@ -151,9 +151,9 @@
                             </div>
 
                             <!-- <div class="mb-3">
-                    <label for="InputPkId" class="form-label fs-3 ">QrCode</label>
-                    <input type="text" class="form-control-lg" id="InputPkId" placeholder="Scan QrCode" autofocus="">
-                </div> -->
+                            <label for="InputPkId" class="form-label fs-3 ">QrCode</label>
+                            <input type="text" class="form-control-lg" id="InputPkId" placeholder="Scan QrCode" autofocus="">
+                        </div> -->
                             <div class="mb-3">
                                 <label for="InputProductNameId" class="form-label">Item Name</label>
                                 <input type="text" class="form-control" id="InputProductNameId" readonly>
@@ -198,7 +198,7 @@
                                 <input type="text" class="form-control" id="DateTextId" disabled>
                             </div>
 
-                            <div class="mb-3 ">
+                            <div class="mb-3 d-none">
                                 <label for="OrderNumberId" class="form-label"> Order Number</label>
                                 <input type="text" class="form-control" id="OrderNumberId" readonly>
                             </div>
@@ -220,9 +220,13 @@
                     </div>
                 </div>
 
-            </div>
 
+                <div class="card-footer d-none">
+                    <button type="button" class="btn btn-success" id="ButtonSaveId">Save</button>
+                </div>
+            </div>
         </div>
+
     </main>
 
     <footer class="footer mt-auto py-3 bg-light fixed-bottom">
