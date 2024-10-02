@@ -45,7 +45,8 @@
         {
             "title": "Rate",
             "field": "Rate",
-            "filtercontrol": "select"
+            "filtercontrol": "select",
+            "footerFormatter":"totalFormatter"
         },
         {
             "title": "Time Span",
