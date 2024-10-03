@@ -2,7 +2,7 @@
   {
     "name": "Dashboard",
     "icon": "bi bi-grid",
-    "url": "/Factory/FromBranchVoucher/DCShowAll.html"
+    "url": "/Factory/FromEntryVoucher/DCShowAll.html"
   },
   {
     "name": "All",
