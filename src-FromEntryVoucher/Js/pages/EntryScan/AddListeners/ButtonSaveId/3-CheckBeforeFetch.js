@@ -1,19 +1,6 @@
 let StartFunc = () => {
-    let jVarLocalDCFactory = jFLocalFromDomDCFactoryTextId();
-    let jVarLocalInputFactorySelectedId = jFLocalFromDomInputFactorySelectedId();
-    
-    if (jVarLocalInputFactorySelectedId === jVarLocalDCFactory) {
-        return true;
-    }
-    else {
-        Swal.fire({
-            icon: "error",
-            title: "Error",
-            text: `This item should be sent to ${jVarGlobalPresentViewData2.location}`
-        });
-    };
 
-    return false;
+    return true;
 };
 
 let jFLocalFromDomInputFactorySelectedId = () => {
