@@ -11,7 +11,7 @@ const StartFunc = () => {
     optionsJson.queryParams = queryParams;
     optionsJson.responseHandler = responseHandler;
     let LocalFactoryName = localStorage.getItem("FactoryName");
-    optionsJson.url=`/Custom/Clients/Laundry/Factory/Process/Washing/Return/Voucher/${LocalFactoryName}`;
+    optionsJson.url=`/Custom/Clients/Laundry/Factory/Process/Washing/ReWash/Voucher/${LocalFactoryName}`;
     $table.bootstrapTable(optionsJson);
 };
 
