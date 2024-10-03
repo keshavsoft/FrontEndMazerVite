@@ -43,6 +43,21 @@
     ]
   },
   {
+    "name": "ReWash",
+    "key": "ReWash",
+    "icon": "bi bi-repeat",
+    "submenu": [
+      {
+        "name": "Create",
+        "url": "ReWashCreate.html"
+      },
+      {
+        "name": "Show",
+        "url": "ReWashDC.html"
+      }
+    ]
+  },
+  {
     "name": "QRCodes",
     "key": "QRCodes",
     "icon": "bi bi-qr-code",
