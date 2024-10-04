@@ -50,14 +50,19 @@
         const value = parameters.get(inGetKey);
         return value;
     };
-    function priceFormatter(data) {
-        var field = this.field
-        return '' + data.map(function (row) {
-            return +row.ItemDetails
+    function totalFormatter(data) {
+        var field = this.field;
+        let LocalTotal = data.map(function (row) {
+            if (row[field] === undefined) {
+                return 0;
+            };
+            return +row[field];
         }).reduce(function (sum, i) {
             return sum + i
-        }, 0)
-    }
+        }, 0);
+
+        return LocalTotal.toFixed(2);
+    };
     let getUrlQueryParams = ({ inGetKey }) => {
         const queryString = window.location.search;
         const parameters = new URLSearchParams(queryString);

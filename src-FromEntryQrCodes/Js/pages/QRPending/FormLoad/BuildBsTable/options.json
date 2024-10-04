@@ -38,7 +38,8 @@
         {
             "field": "Rate",
             "title": "Rate",
-            "filtercontrol": "select"
+            "filtercontrol": "select",
+            "footerFormatter": "totalFormatter"
         },
         {
             "field": "VoucherNumber",
