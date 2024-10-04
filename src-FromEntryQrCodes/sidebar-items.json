@@ -25,6 +25,11 @@
     "icon": "bi bi-arrow-counterclockwise"
   },
   {
+    "name": "ReWash",
+    "url": "QRReWash.html",
+    "icon": "bi bi-repeat"
+  },
+  {
     "name": "Filter",
     "url": "QRFilter.html",
     "icon": "bi bi-funnel"
