@@ -3,7 +3,7 @@ import UrlJson from "./Url.json" with { type: "json" };
 let StartFunc = async () => {
     let jVarLocalFilterString = getUrlQueryParams({ inGetKey: "VoucherRef" });
     let jVarLocalFactoryName = localStorage.getItem("FactoryName");
-    let jVarLocalFetchUrl = `/Custom/Clients/Laundry/Factory/Inward/Return/QrCode/RowCount/${jVarLocalFilterString}/${jVarLocalFactoryName}`;
+    let jVarLocalFetchUrl = `/Custom/Clients/Laundry/Factory/Process/Washing/Return/QrCode/RowCount/${jVarLocalFilterString}/${jVarLocalFactoryName}`;
     let response = await fetch(jVarLocalFetchUrl);
     let data = await response.json();
 
