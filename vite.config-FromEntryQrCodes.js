@@ -4,8 +4,8 @@ import path, { resolve } from 'path'
 import { fileURLToPath } from 'url';
 import nunjucks from 'vite-plugin-nunjucks'
 import { viteStaticCopy } from 'vite-plugin-static-copy';
-import sidebarItems from "./src-FromBranchQrCodes/sidebar-items.json"
-import horizontalMenuItems from "./src-FromBranchQrCodes/horizontal-menu-items.json"
+import sidebarItems from "./src-FromEntryQrCodes/sidebar-items.json"
+import horizontalMenuItems from "./src-FromEntryQrCodes/horizontal-menu-items.json"
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
