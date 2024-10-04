@@ -2,7 +2,7 @@
   {
     "name": "Dashboard",
     "icon": "bi bi-grid",
-    "url": "/Factory/FromEntryVoucher/DCShowAll.html"
+    "url": "/Factory/FromEntryVoucher/DCStatus.html"
   },
   {
     "name": "All",
@@ -27,6 +27,11 @@
   {
     "name": "Filter",
     "url": "QRFilter.html",
+    "icon": "bi bi-funnel"
+  },
+  {
+    "name": "ShowAll",
+    "url": "QRNewShowAll.html",
     "icon": "bi bi-funnel"
   }
 ]
