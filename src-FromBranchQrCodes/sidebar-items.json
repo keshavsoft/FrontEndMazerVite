@@ -28,5 +28,10 @@
     "name": "Filter",
     "url": "QRFilter.html",
     "icon": "bi bi-funnel"
+  },
+  {
+    "name": "ShowAll",
+    "url": "QRNewShowAll.html",
+    "icon": "bi bi-funnel"
   }
 ]
