@@ -43,16 +43,6 @@
             "footerFormatter": "totalFormatter"
         },
         {
-            "field": "VoucherNumber",
-            "title": "DC #",
-            "filtercontrol": "select"
-        },
-        {
-            "title": "DC Date",
-            "field": "DCDate",
-            "filtercontrol": "select"
-        },
-        {
             "title": "BranchName",
             "field": "BranchName",
             "filtercontrol": "select"
@@ -63,8 +53,12 @@
             "filtercontrol": "select"
         },
         {
-            "title": "Return",
-            "field": "EntryReturnStarus",
+            "title": "ReWash",
+            "field": "ReWashStatus"
+        },
+        {
+            "title": "BranchName",
+            "field": "BranchName",
             "filtercontrol": "select"
         },
         {
