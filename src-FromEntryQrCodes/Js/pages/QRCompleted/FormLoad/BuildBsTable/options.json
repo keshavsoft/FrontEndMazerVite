@@ -8,6 +8,7 @@
     "responseHandler": "",
     "queryParams": "",
     "rowStyle": "",
+    "pagination":"true",
     "columns": [
         {
             "field": "KS-Serial",

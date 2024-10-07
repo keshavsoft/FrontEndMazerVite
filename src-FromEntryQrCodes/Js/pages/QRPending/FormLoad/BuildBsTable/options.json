@@ -7,6 +7,7 @@
     "onClickRow": "",
     "responseHandler": "",
     "queryParams": "",
+    "pagination":"true",
     "columns": [
         {
             "field": "KS-Serial",
