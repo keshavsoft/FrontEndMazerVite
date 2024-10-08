@@ -1,0 +1,48 @@
+{% set title = 'Table' %}
+{% set filename = 'table.html' %}
+{% extends 'src-PressingVoucher/layouts/masterWithImage.html' %}
+{% block content %}
+<div class="page-heading">
+
+    <!--  Inverse table start -->
+    <section class="section">
+        <div class="row" id="table-inverse">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-content">
+                        <div class="card-body">
+                            <form class="form form-horizontal" id="FormId" onsubmit="return false">
+                                <div class="form-body">
+                                    <div class="row">
+                                        <div class="row">
+                                            <label for="InputPkId"
+                                                class="col-sm-12 col-form-label col-form-label-lg fs-3 focus-ring ">QrCode</label>
+                                            <div class="col-sm-12">
+                                                <input type="text" class="form-control form-control-lg" id="InputPkId"
+                                                    placeholder="Scan QrCode" autofocus="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Inverse table end -->
+</div>
+
+<script>
+    let jVarGlobalPresentViewData;
+
+    function jFLocalSerialColumn(value, row, index) {
+        return index + 1;
+    };
+</script>
+
+<!-- <script type="module" src="./Js/pages/fixed-Form/StartFunc.js"></script> -->
+<script type="module" src="./Js/pages/EntryDcScan/StartFunc.js"></script>
+
+{% endblock %}

@@ -1,0 +1,29 @@
+{
+    "idfield": "pk",
+    "showFooter": "true",
+    "search": true,
+    "searchHighlight": true,
+    "responseHandler": "responseHandler",
+    "queryParams": "queryParams",
+    "data": [],
+    "onClickRow": "",
+    "columns": [
+        {
+            "field": "KS-Serial",
+            "title": "#",
+            "formatter": "jFLocalSerialColumn"
+        },
+        {
+            "field": "Date",
+            "title": "Date"
+        },
+        {
+            "field": "data1Count",
+            "title": "Send "
+        },
+        {
+            "field": "data2Count",
+            "title": "Scan"
+        }
+    ]
+}
