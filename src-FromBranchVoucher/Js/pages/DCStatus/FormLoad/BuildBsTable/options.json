@@ -45,12 +45,6 @@
             "title": "Scanned",
             "align":"right",
             "footerFormatter":"totalFormatter"
-        },
-        {
-            "field": "Return",
-            "title": "Return",
-            "align":"right",
-            "footerFormatter":"totalFormatter"
         }
     ]
 }
