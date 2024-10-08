@@ -54,6 +54,10 @@
             "filtercontrol": "select"
         },
         {
+            "title": "ReWash",
+            "field": "ReWashStatus"
+        },
+        {
             "title": "BranchName",
             "field": "BranchName",
             "filtercontrol": "select"
