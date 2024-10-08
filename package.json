@@ -18,7 +18,9 @@
     "FromEntryQrCodes": "vite build --config vite.config-FromEntryQrCodes.js",
     "FromEntryVoucher": "vite build --config vite.config-FromEntryVoucher.js",
     "Vertical": "vite build --config vite.config-Vertical.js",
-    "PressingQrCodes": "vite build --config vite.config-PressingQrCodes.js"
+    "PressingQrCodes": "vite build --config vite.config-PressingQrCodes.js",
+    "PressingVoucher": "vite build --config vite.config-PressingVoucher.js"
+
   },
   "author": "",
   "license": "ISC",
