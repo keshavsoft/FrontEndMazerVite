@@ -4,3 +4,4 @@ call npm run FromBranchVoucher
 
 call npm run FromEntryVoucher
 call npm run FromEntryQrCodes
+call npm run PressingVoucher

@@ -17,6 +17,7 @@
     "FromBranchVoucher": "vite build --config vite.config-FromBranchVoucher.js",
     "FromEntryQrCodes": "vite build --config vite.config-FromEntryQrCodes.js",
     "FromEntryVoucher": "vite build --config vite.config-FromEntryVoucher.js",
+    "PressingVoucher": "vite build --config vite.config-PressingVoucher.js",
     "Vertical": "vite build --config vite.config-Vertical.js"
   },
   "author": "",
