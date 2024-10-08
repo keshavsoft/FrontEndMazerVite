@@ -19,7 +19,9 @@
     "FromEntryVoucher": "vite build --config vite.config-FromEntryVoucher.js",
     "Vertical": "vite build --config vite.config-Vertical.js",
     "PressingQrCodes": "vite build --config vite.config-PressingQrCodes.js",
-    "PressingVoucher": "vite build --config vite.config-PressingVoucher.js"
+    "PressingVoucher": "vite build --config vite.config-PressingVoucher.js",
+    "CompletionQrCodes": "vite build --config vite.config-CompletionQrCodes.js",
+    "CompletionVoucher": "vite build --config vite.config-CompletionVoucher.js"
 
   },
   "author": "",

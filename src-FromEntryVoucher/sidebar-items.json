@@ -62,6 +62,11 @@
     "key": "QRCodes",
     "icon": "bi bi-qr-code",
     "url":"/Factory/FromEntryQrCodes/QRShowAll.html"
+  },
+  {
+    "name": "Completion",
+    "icon": "bi bi-qr-code",
+    "url":"/Factory/CompletionVoucher/DCStatus.html"
   }
 
 ]
