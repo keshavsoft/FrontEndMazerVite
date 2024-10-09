@@ -24,16 +24,6 @@
             "filtercontrol": "select"
         },
         {
-            "field": "Factory",
-            "title": "ToFactory",
-            "filtercontrol": "select"
-        },
-        {
-            "field": "TimeSpan",
-            "title": "TimeSpan",
-            "filtercontrol": "select"
-        },
-        {
             "field": "Sent",
             "title": "Sent",
             "align":"right",
@@ -43,6 +33,12 @@
         {
             "field": "Scanned",
             "title": "Scanned",
+            "align":"right",
+            "footerFormatter":"totalFormatter"
+        },
+        {
+            "field": "EntryCancel",
+            "title": "Cancel",
             "align":"right",
             "footerFormatter":"totalFormatter"
         }

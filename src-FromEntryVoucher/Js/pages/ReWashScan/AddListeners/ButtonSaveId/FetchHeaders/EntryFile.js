@@ -2,29 +2,24 @@ import KeysJson from './Keys.json' with {type: 'json'};
 
 let StartFunc = () => {
     let inDataToInsert = {}
-    inDataToInsert.references = {};
-    // inDataToInsert.references.FilterObject = {};
-    // inDataToInsert.references.FilterObject.VoucherRef = jFLocalFromDomInputVoucherRefId();
-    // inDataToInsert.references.FilterObject.QrCodeId = jFLocalFromDomInputPkId();
 
-    inDataToInsert.InSertObject = {};
-    inDataToInsert.InSertObject.QrCodeId = jFLocalFromDomInputPkId();
-    inDataToInsert.InSertObject.ItemName = jFLocalFromDomInputProductNameId();
-    inDataToInsert.InSertObject.Rate = jFLocalFromDomInputSalePriceId();
-    inDataToInsert.InSertObject.FactorySelected = jFLocalFromDomInputFactorySelectedId();
-    inDataToInsert.InSertObject.VoucherRef = jFLocalFromDomInputVoucherRefId();
-    inDataToInsert.InSertObject.BranchName = jFLocalFromDomInputBranchNameId();
-    inDataToInsert.InSertObject.VoucherNumber = jFLocalFromDomVoucherNumberTextId();
-    inDataToInsert.InSertObject.DCFactory = jFLocalFromDomDCFactoryTextId();
-    inDataToInsert.InSertObject.DCDate = jFLocalFromDomDateTextId();
-    inDataToInsert.InSertObject.DCDescription = jFLocalFromDomDescriptionTextId();
-    inDataToInsert.InSertObject.OrderNumber = jFLocalFromDomOrderNumberId();
-    inDataToInsert.InSertObject.OrderDate = jFLocalFromDomOrderDateId();
-    inDataToInsert.InSertObject.DeliveryDate = jFLocalFromDomDeliveryDateId();
-    inDataToInsert.InSertObject.Description = jFLocalDescription();
-    inDataToInsert.InSertObject.FactoryName = localStorage.getItem("FactoryName");
+    inDataToInsert.QrCodeId = jFLocalFromDomInputPkId();
+    // inDataToInsert.ItemName = jFLocalFromDomInputProductNameId();
+    // inDataToInsert.Rate = jFLocalFromDomInputSalePriceId();
+    // inDataToInsert.FactorySelected = jFLocalFromDomInputFactorySelectedId();
+    inDataToInsert.VoucherRef = jFLocalFromDomInputVoucherRefId();
+    inDataToInsert.BranchName = jFLocalFromDomInputBranchNameId();
+    // inDataToInsert.VoucherNumber = jFLocalFromDomVoucherNumberTextId();
+    // inDataToInsert.DCFactory = jFLocalFromDomDCFactoryTextId();
+    // inDataToInsert.DCDate = jFLocalFromDomDateTextId();
+    // inDataToInsert.DCDescription = jFLocalFromDomDescriptionTextId();
+    inDataToInsert.OrderNumber = jFLocalFromDomOrderNumberId();
+    // inDataToInsert.OrderDate = jFLocalFromDomOrderDateId();
+    // inDataToInsert.DeliveryDate = jFLocalFromDomDeliveryDateId();
+    inDataToInsert.Description = jFLocalDescription();
+    inDataToInsert.FactoryName = localStorage.getItem("FactoryName");
 
-    KeysJson.body = JSON.stringify(inDataToInsert.InSertObject);
+    KeysJson.body = JSON.stringify(inDataToInsert);
     return KeysJson;
 };
 

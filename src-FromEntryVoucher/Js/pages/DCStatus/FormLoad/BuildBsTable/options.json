@@ -18,12 +18,24 @@
             "title": "Date"
         },
         {
-            "field": "data1Count",
-            "title": "Send "
+            "field": "Sent",
+            "title": "Send ",
+            "align": "right"
         },
         {
-            "field": "data2Count",
-            "title": "Scan"
+            "field": "Receved",
+            "title": "Scan",
+            "align": "right"
+        },
+        {
+            "field": "WashCancel",
+            "title": "Cancel",
+            "align": "right"
+        },
+        {
+            "field": "ReWash",
+            "title": "ReWash",
+            "align": "right"
         }
     ]
 }
