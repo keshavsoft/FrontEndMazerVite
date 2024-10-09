@@ -64,9 +64,14 @@
     "url":"/Factory/FromEntryQrCodes/QRShowAll.html"
   },
   {
+    "name": "Pressing",
+    "icon": "bi bi-box-seam",
+    "url": "/Factory/PressingVoucher/DCStatus.html"
+  },
+  {
     "name": "Completion",
-    "icon": "bi bi-qr-code",
-    "url":"/Factory/CompletionVoucher/DCStatus.html"
+    "icon": "bi bi-check-circle",
+    "url": "/Factory/CompletionVoucher/DCStatus.html"
   }
 
 ]
