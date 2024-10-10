@@ -8,6 +8,7 @@
     "responseHandler": "responseHandler",
     "queryParams": "queryParams",
     "rowStyle": "rowStyle",
+    "url": "/Custom/Clients/Laundry/Factory/Inward/Scan/Voucher/$FactoryName",
     "columns": [
         {
             "field": "KS-Serial",
@@ -31,8 +32,8 @@
         },
         {
             "title": "Items",
-            "formatter":"ItemsFormatter",
-            "footerFormatter":"priceFormatter"
+            "formatter": "ItemsFormatter",
+            "footerFormatter": "priceFormatter"
         },
         {
             "title": "Scan",

@@ -16,7 +16,7 @@ const StartFunc = () => {
 
     ForColumns({ inColumns: optionsJson.columns });
 
-    optionsJson.url = `/Custom/Clients/Laundry/Factory/Process/Pressing/Scan/Voucher/${LocalFactoryName}`;
+    optionsJson.url = optionsJson.url.replace("$FactoryName", LocalFactoryName);
 
     $table.bootstrapTable(optionsJson);
 };
