@@ -36,7 +36,9 @@ const getVariables = (mode) => {
             web_title: "Mazer Admin Dashboard",
             sidebarItems,
             horizontalMenuItems,
-            isDev: mode === 'development'
+            isDev: mode === 'development',
+            filename: filename + '.html',
+            title: filename
         }
     })
     return variables
@@ -55,9 +57,9 @@ const modulesToCopy = {
     flatpickr: true,
     filepond: true,
     "filepond-plugin-file-validate-size": true,
-    "filepond-plugin-file-validate-type": true, 
+    "filepond-plugin-file-validate-type": true,
     "filepond-plugin-image-crop": true,
-    "filepond-plugin-image-exif-orientation": true, 
+    "filepond-plugin-image-exif-orientation": true,
     "filepond-plugin-image-filter": true,
     "filepond-plugin-image-preview": true,
     "filepond-plugin-image-resize": true,
@@ -75,7 +77,7 @@ const modulesToCopy = {
     "toastify-js": false,
     "datatables.net": false,
     "datatables.net-bs5": false,
-    "simple-datatables": true, 
+    "simple-datatables": true,
     jsvectormap: true,
 }
 

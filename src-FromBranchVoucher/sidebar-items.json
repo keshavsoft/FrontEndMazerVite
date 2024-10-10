@@ -9,40 +9,29 @@
     "icon": "grid-fill"
   },
   {
-    "name": "DC",
-    "key": "DC",
+    "name": "Create",
+    "key": "create",
     "icon": "stack",
     "submenu": [
       {
-        "name": "ShowAll",
-        "url": "DCShowAll.html"
-      },
-      {
-        "name": "Status",
-        "url": "DCStatus.html"
+        "name": "DC",
+        "url": "createDC.html"
       }
     ]
   },
   {
-    "name": "FactoryReturn",
-    "key": "Return",
-    "icon": "bi bi-arrow-counterclockwise",
+    "name": "Insert",
+    "key": "insert",
+    "icon": "stack",
     "submenu": [
       {
-        "name": "Create",
-        "url": "ReturnCreate.html"
+        "name": "ToDC",
+        "url": "insertToDC.html"
       },
       {
-       "name": "Show",
-        "url": "ReturnDC.html" 
+        "name": "QrCode",
+        "url": "insertQrCode.html"
       }
     ]
-  },
-  {
-    "name": "QRCodes",
-    "key": "QRCodes",
-    "icon": "bi bi-qr-code",
-    "url":"/Factory/FromBranchQrCodes/QRShowAll.html"
   }
-
 ]

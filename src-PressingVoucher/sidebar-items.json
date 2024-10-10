@@ -37,8 +37,8 @@
         "url": "ReturnCreate.html"
       },
       {
-       "name": "Show",
-        "url": "ReturnDC.html" 
+        "name": "Show",
+        "url": "ReturnDC.html"
       }
     ]
   },
@@ -46,7 +46,32 @@
     "name": "QRCodes",
     "key": "QRCodes",
     "icon": "bi bi-qr-code",
-    "url":"/Factory/PressingQrCodes/QRShowAll.html"
+    "url": "/Factory/PressingQrCodes/QRShowAll.html"
+  },
+  {
+    "name": "Create",
+    "key": "create",
+    "icon": "stack",
+    "submenu": [
+      {
+        "name": "DC",
+        "url": "createDC.html"
+      }
+    ]
+  },
+  {
+    "name": "Insert",
+    "key": "insert",
+    "icon": "stack",
+    "submenu": [
+      {
+        "name": "ToDC",
+        "url": "insertToDC.html"
+      },
+      {
+        "name": "QrCode",
+        "url": "insertQrCode.html"
+      }
+    ]
   }
-
 ]
