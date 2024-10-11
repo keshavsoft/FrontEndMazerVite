@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Menu",
+    "isTitle": true
+  },
+  {
+    "name": "Dashboard",
+    "url": "index.html",
+    "icon": "grid-fill"
+  },
+  {
+    "name": "DC",
+    "key": "DC",
+    "icon": "stack",
+    "submenu": [
+      {
+        "name": "Create",
+        "url": "DCCreate.html"
+      },
+      {
+        "name": "ShowAll",
+        "url": "DCShowAll.html"
+      },
+      {
+        "name": "Status",
+        "url": "DCStatus.html"
+      }
+    ]
+  },
+  {
+    "name": "QRCodes",
+    "key": "QRCodes",
+    "icon": "bi bi-qr-code",
+    "url":"/Factory/CompletionQrCodes/QRShowAll.html"
+  }
+
+]

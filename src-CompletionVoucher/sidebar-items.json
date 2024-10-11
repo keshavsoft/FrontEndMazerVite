@@ -9,29 +9,40 @@
     "icon": "grid-fill"
   },
   {
-    "name": "DC",
-    "key": "DC",
-    "icon": "stack",
+    "name": "Create",
+    "key": "create",
+    "icon": "bi bi-plus-circle-fill",
     "submenu": [
       {
-        "name": "Create",
-        "url": "DCCreate.html"
-      },
-      {
-        "name": "ShowAll",
-        "url": "DCShowAll.html"
-      },
-      {
-        "name": "Status",
-        "url": "DCStatus.html"
+        "name": "DC",
+        "url": "createDC.html"
       }
     ]
   },
   {
-    "name": "QRCodes",
-    "key": "QRCodes",
-    "icon": "bi bi-qr-code",
-    "url":"/Factory/CompletionQrCodes/QRShowAll.html"
+    "name": "Insert",
+    "key": "insert",
+    "icon": "stack",
+    "submenu": [
+      {
+        "name": "ToDC",
+        "url": "insertToDC.html"
+      }
+    ]
+  },
+  {
+    "name": "Qr-Reports",
+    "url": "../CompletionQrCodes/",
+    "icon": "bi bi-qr-code"
+  },
+  {
+    "name": "Washing",
+    "url": "../WashingVoucher/",
+    "icon": "bi bi-brilliance"
+  },
+  {
+    "name": "Pressing",
+    "url": "../PressingVoucher",
+    "icon": "bi bi-body-text"
   }
-
 ]
