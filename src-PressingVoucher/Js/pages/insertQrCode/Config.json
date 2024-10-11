@@ -1,0 +1,12 @@
+{
+    "GetUrl": "/Custom/Clients/Laundry/Factory/Process/Pressing/Scan/QrCode/RowQrData",
+    "PostUrl": "/Custom/Clients/Laundry/Factory/Process/Pressing/Scan/QrCode",
+    "FormLoad": {
+        "DcDetails": {
+            "GetUrl": "/binV4/PressingDC/Show"
+        },
+        "DcCount": {
+            "GetUrl": "/Custom/Clients/Laundry/Factory/Process/Pressing/Scan/QrCode/RowCount"
+        }
+    }
+}

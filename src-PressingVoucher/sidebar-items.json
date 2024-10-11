@@ -9,53 +9,17 @@
     "icon": "grid-fill"
   },
   {
-    "name": "DC",
-    "key": "DC",
-    "icon": "stack",
-    "submenu": [
-      {
-        "name": "Create",
-        "url": "DCCreate.html"
-      },
-      {
-        "name": "ShowAll",
-        "url": "DCShowAll.html"
-      },
-      {
-        "name": "Status",
-        "url": "DCStatus.html"
-      }
-    ]
-  },
-  {
-    "name": "FactoryReturn",
-    "key": "Return",
-    "icon": "bi bi-arrow-counterclockwise",
-    "submenu": [
-      {
-        "name": "Create",
-        "url": "ReturnCreate.html"
-      },
-      {
-        "name": "Show",
-        "url": "ReturnDC.html"
-      }
-    ]
-  },
-  {
-    "name": "QRCodes",
-    "key": "QRCodes",
-    "icon": "bi bi-qr-code",
-    "url": "/Factory/PressingQrCodes/QRShowAll.html"
-  },
-  {
     "name": "Create",
     "key": "create",
-    "icon": "stack",
+    "icon": "bi bi-plus-circle-fill",
     "submenu": [
       {
         "name": "DC",
         "url": "createDC.html"
+      },
+      {
+        "name": "Return-DC",
+        "url": "createReturnDC.html"
       }
     ]
   },
@@ -69,9 +33,32 @@
         "url": "insertToDC.html"
       },
       {
-        "name": "QrCode",
-        "url": "insertQrCode.html"
+        "name": "ToReturn-DC",
+        "url": "insertToReturnDC.html"
+      },
+      {
+        "name": "DC-Items",
+        "url": "insertDCItems.html"
+      },
+      {
+        "name": "DC-Return-Items",
+        "url": "insertDCReturnItems.html"
       }
     ]
+  },
+  {
+    "name": "Qr-Reports",
+    "url": "../PressingQrCodes/",
+    "icon": "bi bi-qr-code"
+  },
+  {
+    "name": "Washing",
+    "url": "../WashingVoucher/",
+    "icon": "bi bi-brilliance"
+  },
+  {
+    "name": "Outward",
+    "url": "../CompletionVoucher",
+    "icon": "bi bi-check-circle"
   }
 ]

@@ -1,0 +1,12 @@
+{
+    "GetUrl": "/Custom/Clients/Laundry/Factory/Outward/Scan/QrCode/RowQrData",
+    "PostUrl": "/Custom/Clients/Laundry/Factory/Outward/Scan/QrCode",
+    "FormLoad": {
+        "DcDetails": {
+            "GetUrl": "/binV4/CompletionDC/Show"
+        },
+        "DcCount": {
+            "GetUrl": "/Custom/Clients/Laundry/Factory/Outward/Scan/QrCode/RowCount"
+        }
+    }
+}

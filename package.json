@@ -21,7 +21,9 @@
     "PressingQrCodes": "vite build --config vite.config-PressingQrCodes.js",
     "PressingVoucher": "vite build --config vite.config-PressingVoucher.js",
     "CompletionQrCodes": "vite build --config vite.config-CompletionQrCodes.js",
-    "CompletionVoucher": "vite build --config vite.config-CompletionVoucher.js"
+    "CompletionVoucher": "vite build --config vite.config-CompletionVoucher.js",
+    "WashingVoucher": "vite build --config vite.config-WashingVoucher.js"
+
 
   },
   "author": "",

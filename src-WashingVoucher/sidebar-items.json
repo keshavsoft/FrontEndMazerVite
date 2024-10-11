@@ -1,0 +1,71 @@
+[
+  {
+    "name": "Menu",
+    "isTitle": true
+  },
+  {
+    "name": "Dashboard",
+    "url": "index.html",
+    "icon": "grid-fill"
+  },
+  {
+    "name": "Create",
+    "key": "create",
+    "icon": "bi bi-plus-circle-fill",
+    "submenu": [
+      {
+        "name": "DC",
+        "url": "createDC.html"
+      },
+      {
+        "name": "Return-DC",
+        "url": "createReturnDC.html"
+      },
+      {
+        "name": "Rewash-DC",
+        "url": "createReWashDC.html"
+      }
+    ]
+  },
+  {
+    "name": "Insert",
+    "key": "insert",
+    "icon": "stack",
+    "submenu": [
+      {
+        "name": "ToDC",
+        "url": "insertToDC.html"
+      },
+      {
+        "name": "ToReturn-DC",
+        "url": "insertToReturnDC.html"
+      },
+      {
+        "name": "ToRewash-DC",
+        "url": "insertToRewashDC.html"
+      },
+      {
+        "name": "DC-Items",
+        "url": "insertDCItems.html"
+      },
+      {
+        "name": "DC-Return-Items",
+        "url": "insertDCReturnItems.html"
+      },
+      {
+        "name": "DC-Rewash-Items",
+        "url": "insertRewashDCItems.html"
+      }
+    ]
+  },
+  {
+    "name": "Qr-Reports",
+    "url": "../FromEntryQrCodes/",
+    "icon": "bi bi-qr-code"
+  },
+  {
+    "name": "Pressing",
+    "url": "../FromEntryVoucher/",
+    "icon": "bi bi-body-text"
+  }
+]
