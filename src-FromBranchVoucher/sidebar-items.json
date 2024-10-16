@@ -44,5 +44,11 @@
         "url": "StatusDC.html"
       }
     ]
+  },
+  {
+    "name": "QRCodes",
+    "key": "QRCodes",
+    "icon": "bi bi-qr-code",
+    "url":"../FromBranchQrCodes/"
   }
 ]

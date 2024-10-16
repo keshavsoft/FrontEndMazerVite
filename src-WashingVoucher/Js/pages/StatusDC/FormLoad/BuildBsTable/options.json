@@ -1,0 +1,42 @@
+{
+    "idfield": "pk",
+    "showFooter": "true",
+    "search": true,
+    "searchHighlight": true,
+    "responseHandler": "responseHandler",
+    "queryParams": "queryParams",
+    "data": [],
+    "onClickRow": "",
+    "url": "/Custom/Clients/Laundry/Factory/Process/Washing/Scan/Voucher/QrStatus/$FactoryName",
+    "columns": [
+        {
+            "field": "KS-Serial",
+            "title": "#",
+            "formatter": "jFLocalSerialColumn"
+        },
+        {
+            "field": "Date",
+            "title": "Date"
+        },
+        {
+            "field": "Sent",
+            "title": "Send ",
+            "align": "right"
+        },
+        {
+            "field": "Receved",
+            "title": "Scan",
+            "align": "right"
+        },
+        {
+            "field": "WashCancel",
+            "title": "Cancel",
+            "align": "right"
+        },
+        {
+            "field": "ReWash",
+            "title": "ReWash",
+            "align": "right"
+        }
+    ]
+}
