@@ -1,0 +1,47 @@
+{
+    "idfield": "pk",
+    "showFooter": "true",
+    "search": true,
+    "searchHighlight": true,
+    "responseHandler": "responseHandler",
+    "queryParams": "queryParams",
+    "data": [],
+    "onClickRow": "",
+    "url": "/Custom/Clients/Laundry/Factory/Inward/Scan/Voucher/QrStatus/$FactoryName",
+    "columns": [
+        {
+            "field": "KS-Serial",
+            "title": "#",
+            "formatter": "jFLocalSerialColumn"
+        },
+        {
+            "field": "pk",
+            "title": "DC",
+            "filtercontrol": "input"
+        },
+        {
+            "field": "BranchName",
+            "title": "FromBranch ",
+            "filtercontrol": "select"
+        },
+        {
+            "field": "Sent",
+            "title": "Sent",
+            "align":"right",
+            "filtercontrol": "select",
+            "footerFormatter":"totalFormatter"
+        },
+        {
+            "field": "Scanned",
+            "title": "Scanned",
+            "align":"right",
+            "footerFormatter":"totalFormatter"
+        },
+        {
+            "field": "EntryCancel",
+            "title": "Cancel",
+            "align":"right",
+            "footerFormatter":"totalFormatter"
+        }
+    ]
+}
