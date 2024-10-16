@@ -33,7 +33,7 @@
         {
             "title": "Items",
             "formatter": "ItemsFormatter",
-            "footerFormatter": "priceFormatter"
+            "footerFormatter": "totalFormatter"
         },
         {
             "title": "Scan",
