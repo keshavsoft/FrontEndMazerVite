@@ -14,7 +14,7 @@ let StartFunc = async ({ inFetchResonse }) => {
         jFLocalToInputOrderNumberId({ inInputValue: jVarLocalFetchData.GenerateReference.ReferncePk });
         jFLocalToInputOrderDateId({ inInputValue: jVarLocalFetchData.BookingData.OrderData.Currentdateandtime });
         jFLocalToInputDeliveryDateId({ inInputValue: jVarLocalFetchData.DeliveryDateTime });
-        jFLocalRunSaveClick();
+        // jFLocalRunSaveClick();
     };
 };
 

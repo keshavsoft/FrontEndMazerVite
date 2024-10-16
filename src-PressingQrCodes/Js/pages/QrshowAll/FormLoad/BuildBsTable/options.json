@@ -49,13 +49,13 @@
             "filtercontrol": "select"
         },
         {
-            "title": "Status",
+            "title": "Scan",
             "field": "Status",
             "filtercontrol": "select"
         },
         {
-            "title": "ReWash",
-            "field": "ReWashStatus"
+            "title": "Return",
+            "field": "EntryReturnStatus"
         },
         {
             "title": "BranchName",
