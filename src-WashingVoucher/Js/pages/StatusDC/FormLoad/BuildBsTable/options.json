@@ -21,22 +21,26 @@
         {
             "field": "Sent",
             "title": "Send ",
-            "align": "right"
+            "align": "right",
+            "footerFormatter": "totalFormatter"
         },
         {
             "field": "Receved",
             "title": "Scan",
-            "align": "right"
+            "align": "right",
+            "footerFormatter": "totalFormatter"
         },
         {
             "field": "WashCancel",
             "title": "Cancel",
-            "align": "right"
+            "align": "right",
+            "footerFormatter": "totalFormatter"
         },
         {
             "field": "ReWash",
             "title": "ReWash",
-            "align": "right"
+            "align": "right",
+            "footerFormatter": "totalFormatter"
         }
     ]
 }
