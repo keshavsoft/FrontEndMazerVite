@@ -22,6 +22,7 @@ let StartFunc = () => {
     inDataToInsert.InSertObject.OrderDate = jFLocalFromDomOrderDateId();
     inDataToInsert.InSertObject.DeliveryDate = jFLocalFromDomDeliveryDateId();
     inDataToInsert.InSertObject.FactoryName = localStorage.getItem("FactoryName");
+    inDataToInsert.InSertObject.Description = jFLocalDescription();
 
     KeysJson.body = JSON.stringify(inDataToInsert.InSertObject);
     return KeysJson;
@@ -116,5 +117,14 @@ let jFLocalFromDomDeliveryDateId = () => {
     let jVarHtmlDeliveryDateId = document.getElementById(jVarLocalHtmlDeliveryDateId);
     let jVarHtmlDeliveryDateIdValue = jVarHtmlDeliveryDateId.value.trim();
     return jVarHtmlDeliveryDateIdValue;
+};
+
+let jFLocalDescription = () => {
+    let jVarLocalDescription = 'Description'
+    let jVarLocalHtmlId = document.getElementById(jVarLocalDescription);
+
+    if (jVarLocalHtmlId === null === false) {
+    return jVarLocalHtmlId.value.trim();
+    };
 };
 export { StartFunc }

@@ -43,18 +43,17 @@
       {
         "name": "ToRewash-DC",
         "url": "insertToRewashDC.html"
-      },
+      }
+    ]
+  },
+  {
+    "name": "Status",
+    "key": "Status",
+    "icon": "stack",
+    "submenu": [
       {
-        "name": "DC-Items",
-        "url": "insertDCItems.html"
-      },
-      {
-        "name": "DC-Return-Items",
-        "url": "insertDCReturnItems.html"
-      },
-      {
-        "name": "DC-Rewash-Items",
-        "url": "insertRewashDCItems.html"
+        "name": "DC",
+        "url": "StatusDC.html"
       }
     ]
   },
