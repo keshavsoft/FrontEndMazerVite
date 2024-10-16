@@ -35,14 +35,17 @@
       {
         "name": "ToReturn-DC",
         "url": "insertToReturnDC.html"
-      },
+      }
+    ]
+  },
+  {
+    "name": "Status",
+    "key": "Status",
+    "icon": "stack",
+    "submenu": [
       {
-        "name": "DC-Items",
-        "url": "insertDCItems.html"
-      },
-      {
-        "name": "DC-Return-Items",
-        "url": "insertDCReturnItems.html"
+        "name": "DC",
+        "url": "StatusDC.html"
       }
     ]
   },
