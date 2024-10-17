@@ -31,6 +31,17 @@
     ]
   },
   {
+    "name": "Status",
+    "key": "Status",
+    "icon": "stack",
+    "submenu": [
+      {
+        "name": "DC",
+        "url": "StatusDC.html"
+      }
+    ]
+  },
+  {
     "name": "Qr-Reports",
     "url": "../CompletionQrCodes/",
     "icon": "bi bi-qr-code"
