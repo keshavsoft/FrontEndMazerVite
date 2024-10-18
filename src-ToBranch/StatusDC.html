@@ -1,0 +1,47 @@
+{% extends 'src-ToBranch/layouts/masterWithImage.html' %}
+
+{% block content %}
+<div class="page-heading">
+    <section class="section">
+        <div class="spinner-border" id="SpinnerId" role="status" style="display: none;">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+        <table class="table table-dark mb-0" id="table">
+            <thead>
+                <tr>
+                    <th data-formatter="jFGlobalSerialColumn">#</th>
+                </tr>
+
+            </thead>
+        </table>
+    </section>
+    <!-- Inverse table end -->
+</div>
+
+<script>
+    let jVarGlobalPresentViewData;
+
+    function jFLocalSerialColumn(value, row, index) {
+        return index + 1;
+    };
+
+    function totalFormatter(data) {
+        var field = this.field;
+        let LocalTotal = data.map(function (row) {
+            if (row[field] === undefined) {
+                return 0;
+            };
+            return +row[field];
+        }).reduce(function (sum, i) {
+            return sum + i
+        }, 0);
+
+        return Math.floor(LocalTotal);
+    }
+</script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<script type="module" src="./Js/pages/StatusDC/StartFunc.js"></script>
+
+
+{% endblock %}
