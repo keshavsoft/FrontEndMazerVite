@@ -3,7 +3,7 @@ import ConfigJson from '../../../../Config.json' with {type: 'json'};
 let StartFunc = async () => {
     let jVarLocalVoucherRef = getUrlQueryParams({ inGetKey: "VoucherRef" });
 
-    let jVarLocalFetchUrl = `${ConfigJson.FormLoad.DcDetails}/${jVarLocalVoucherRef}`;
+    let jVarLocalFetchUrl = `${ConfigJson.FormLoad.DcDetails.GetUrl}/${jVarLocalVoucherRef}`;
     let response = await fetch(jVarLocalFetchUrl);
     let data = await response.json();
 
