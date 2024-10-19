@@ -1,15 +1,15 @@
 import { StartFunc as onOpen } from "./onOpen.js";
 import { StartFunc as OnMessage } from "./OnMessage/EntryFile.js";
 
-let jVarLocalHostName = window.location.host;
-let jVarLocalUrlForWS;
+let jVarLocalUrlForWS = "wss://join.keshavsoft.biz";
 
-if (location.protocol === "https:") {
-    jVarLocalUrlForWS = "wss://" + jVarLocalHostName;
-}
-if (location.protocol === "http:") {
-    jVarLocalUrlForWS = "ws://" + jVarLocalHostName;
-}
+// if (location.protocol === "https:") {
+//     jVarLocalUrlForWS = "wss://" + jVarLocalHostName;
+// }
+// if (location.protocol === "http:") {
+//     jVarLocalUrlForWS = "ws://" + jVarLocalHostName;
+// };
+
 let StartFunc = () => {
     jFLocalEstablishWebSocket();
 };

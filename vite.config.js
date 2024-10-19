@@ -37,7 +37,8 @@ const getVariables = (mode) => {
             web_title: "Mazer Admin Dashboard",
             sidebarItems,
             horizontalMenuItems,
-            isDev: mode === 'development'
+            isDev: mode === 'development',
+            filename: `${filename}.html`
         }
     })
     return variables

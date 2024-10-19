@@ -1,5 +1,4 @@
 import { StartFunc as CommonMessageAsJson } from "./MessageAsJson/EntryFile.js";
-// import { StartFunc as CommonMessageAsString } from "./MessageAsString/EntryFile.js";
 
 let StartFunc = (event) => {
     let LocalData = event.data;
@@ -12,8 +11,6 @@ let StartFunc = (event) => {
         return;
     } catch (error) {
     };
-
-    // CommonMessageAsString({ inDataAsString: LocalData.toString(), inws, inClients });
 };
 
 export { StartFunc };
