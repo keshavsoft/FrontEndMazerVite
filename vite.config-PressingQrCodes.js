@@ -11,8 +11,8 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const root = resolve(__dirname, 'src-PressingQrCodes')
-const CommonOutFolder = "PublicDir/PressingQrCodes";
-
+// const CommonOutFolder = "PublicDir/PressingQrCodes";
+const CommonOutFolder = "PublicDir/Process/Pressing/PressingQrCodes";
 // const root = resolve(__dirname, 'src-PressingQrCodes')
 
 const getFiles = () => {
@@ -55,9 +55,9 @@ const modulesToCopy = {
     flatpickr: true,
     filepond: true,
     "filepond-plugin-file-validate-size": true,
-    "filepond-plugin-file-validate-type": true, 
+    "filepond-plugin-file-validate-type": true,
     "filepond-plugin-image-crop": true,
-    "filepond-plugin-image-exif-orientation": true, 
+    "filepond-plugin-image-exif-orientation": true,
     "filepond-plugin-image-filter": true,
     "filepond-plugin-image-preview": true,
     "filepond-plugin-image-resize": true,
@@ -75,7 +75,7 @@ const modulesToCopy = {
     "toastify-js": false,
     "datatables.net": false,
     "datatables.net-bs5": false,
-    "simple-datatables": true, 
+    "simple-datatables": true,
     jsvectormap: true,
 }
 

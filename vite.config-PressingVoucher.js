@@ -12,7 +12,8 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const root = resolve(__dirname, 'src-PressingVoucher')
-const CommonOutFolder = "PublicDir/PressingVoucher";
+// const CommonOutFolder = "PublicDir/PressingVoucher";
+const CommonOutFolder = "PublicDir/Process/Pressing/PressingVoucher";
 
 // const root = resolve(__dirname, 'src-FromBranchQrCodes')
 

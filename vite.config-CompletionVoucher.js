@@ -11,8 +11,8 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const root = resolve(__dirname, 'src-CompletionVoucher')
-const CommonOutFolder = "PublicDir/CompletionVoucher";
-
+// const CommonOutFolder = "PublicDir/CompletionVoucher";
+const CommonOutFolder = "PublicDir/Process/Completion/CompletionVoucher";
 // const root = resolve(__dirname, 'src-FromBranchQrCodes')
 
 const getFiles = () => {
