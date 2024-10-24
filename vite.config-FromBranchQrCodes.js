@@ -11,7 +11,8 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const root = resolve(__dirname, 'src-FromBranchQrCodes')
-const CommonOutFolder = "PublicDir/FromBranchQrCodes";
+//const CommonOutFolder = "PublicDir/FromBranchQrCodes";
+const CommonOutFolder = "PublicDir/Inward/FromBranch/FromBranchQrCodes";
 
 // const root = resolve(__dirname, 'src-FromBranchQrCodes')
 

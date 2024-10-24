@@ -11,7 +11,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const root = resolve(__dirname, 'src-FromBranchVoucher')
-const CommonOutFolder = "PublicDir/FromBranchVoucher";
+const CommonOutFolder = "PublicDir/Inward/FromBranch/FromBranchVoucher";
 
 // const root = resolve(__dirname, 'src-FromBranchQrCodes')
 
