@@ -3,7 +3,7 @@
     "PostUrl": "/Custom/Clients/Laundry/Factory/Inward/Return/QrCode",
     "FormLoad": {
         "DcDetails": {
-            "GetUrl": "/binV4/EntryCancelDC/Show"
+            "GetUrl": "/binV4/BranchDC/Show"
         },
         "DcCount": {
             "GetUrl": "/Custom/Clients/Laundry/Factory/Inward/Return/QrCode/RowCount"

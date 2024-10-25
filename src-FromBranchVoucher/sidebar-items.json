@@ -31,6 +31,10 @@
       {
         "name": "ToReturn-DC",
         "url": "insertToReturnDC.html"
+      },
+      {
+        "name": "Scan",
+        "url": "insertScan.html"
       }
     ]
   },
