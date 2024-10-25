@@ -2,7 +2,7 @@
   {
     "name": "Dashboard",
     "icon": "bi bi-grid",
-    "url": "../WashingVoucher/StatusDC.html"
+    "url": "../Process/WashingVoucher/"
   },
   {
     "name": "All",

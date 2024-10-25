@@ -56,12 +56,12 @@
   },
   {
     "name": "Washing",
-    "url": "../WashingVoucher/",
+    "url": "../../WashingVoucher/",
     "icon": "bi bi-brilliance"
   },
   {
     "name": "Outward",
-    "url": "../CompletionVoucher",
+    "url": "../../Completion/CompletionVoucher/",
     "icon": "bi bi-check-circle"
   }
 ]

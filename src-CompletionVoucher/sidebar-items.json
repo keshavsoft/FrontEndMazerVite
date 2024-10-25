@@ -48,12 +48,12 @@
   },
   {
     "name": "Washing",
-    "url": "../WashingVoucher/",
+    "url": "../../WashingVoucher/",
     "icon": "bi bi-brilliance"
   },
   {
     "name": "Pressing",
-    "url": "../PressingVoucher",
+    "url": "../../Pressing/PressingVoucher/",
     "icon": "bi bi-body-text"
   }
 ]
