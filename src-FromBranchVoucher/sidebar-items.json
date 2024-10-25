@@ -1,8 +1,7 @@
 [
   {
     "name": "FromBranchVoucher",
-    "isTitle": true,
-    "url": "../FromBranchQrCodes"
+    "isTitle": true
   },
   {
     "name": "Dashboard",
@@ -47,8 +46,7 @@
     ]
   },
   {
-    "name": "QRCodes",
-    "key": "QRCodes",
+    "name": "FromBranchQrCodes",
     "icon": "bi bi-qr-code",
     "url": "../FromBranchQrCodes/"
   }
