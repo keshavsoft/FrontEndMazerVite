@@ -1,8 +1,8 @@
 [
   {
-    "name": "Dashboard",
+    "name": "FromBranchQrCodes",
     "icon": "bi bi-grid",
-    "url": "/Factory/FromBranchVoucher/DCShowAll.html"
+    "url": "/Factory/FromBranchVoucher"
   },
   {
     "name": "All",
