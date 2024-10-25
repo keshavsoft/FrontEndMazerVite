@@ -59,12 +59,12 @@
   },
   {
     "name": "Qr-Reports",
-    "url": "../FromEntryQrCodes/",
+    "url": "../../FromEntryQrCodes/",
     "icon": "bi bi-qr-code"
   },
   {
     "name": "Pressing",
-    "url": "../PressingVoucher/",
+    "url": "../Pressing/PressingVoucher/",
     "icon": "bi bi-body-text"
   }
 ]
