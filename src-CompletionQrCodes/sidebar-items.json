@@ -1,5 +1,9 @@
 [
   {
+    "name": "CompletionQrCodes",
+    "isTitle": true
+  },
+  {
     "name": "Dashboard",
     "icon": "bi bi-grid",
     "url": "../CompletionVoucher/"
