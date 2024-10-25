@@ -2,7 +2,12 @@
   {
     "name": "FromBranchQrCodes",
     "icon": "bi bi-grid",
-    "url": "/Factory/FromBranchVoucher"
+    "url": "../FromBranchVoucher"
+  },
+  {
+    "name": "Dashboard",
+    "url": "index.html",
+    "icon": "grid-fill"
   },
   {
     "name": "All",
