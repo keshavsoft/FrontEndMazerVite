@@ -1,5 +1,9 @@
 [
   {
+    "name": "PressingQrCodes",
+    "isTitle": true
+  },
+  {
     "name": "Dashboard",
     "icon": "bi bi-grid",
     "url": "../PressingVoucher/"

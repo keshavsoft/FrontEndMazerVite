@@ -1,5 +1,9 @@
 [
   {
+    "name": "FromEntryQrCodes",
+    "isTitle": true
+  },
+  {
     "name": "Dashboard",
     "icon": "bi bi-grid",
     "url": "../Process/WashingVoucher/"
