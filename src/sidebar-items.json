@@ -37,5 +37,10 @@
     "name": "AllUsersStartChat",
     "url": "./AllUsersStartChat.html",
     "icon": "grid-fill"
+  },
+  {
+    "name": "Profile",
+    "url": "./account-profile.html",
+    "icon": "grid-fill"
   }
 ]

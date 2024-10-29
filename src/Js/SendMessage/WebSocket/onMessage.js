@@ -1,25 +1,20 @@
 import { StartFunc as sendMessage } from "./sendMessage.js";
 
 let StartFunc = (event) => {
-    // console.log("incoming message log : ", event.data);
-
     try {
         let jVarLocalParse = JSON.parse(event.data);
         console.log("jVarLocalParse : ", jVarLocalParse);
         switch (jVarLocalParse?.Type) {
-            case "IsStudent":
-                jFLocalShowForStudent();
+            case "wAProfile":
+                wAProfile({ inData: jVarLocalParse.res });
                 break;
 
             default:
                 break;
         };
     } catch (error) {
-        // console.log("eeeeeeeeeeeeeee log : ", event.data);
         jFLocalShowMessage({ inMessage: event.data });
     };
-
-    // jFLocalShowMessage({ inMessage: event.data });
 };
 
 const jFLocalShowMessage = ({ inMessage }) => {
@@ -33,25 +28,27 @@ const jFLocalShowMessage = ({ inMessage }) => {
     jVarLocalChatContentId.appendChild(clone);
 };
 
-const jFLocalShowForStudent = () => {
-    const template = document.querySelector("#RecieveMessageBoolId");
-    let jVarLocalChatContentId = document.getElementById('ChatContentId');
+let jFLocalToInputUserNameId = (inValue) => {
+    let jVarLocalHtmlId = 'UserNameId';
+    let jVarLocalUserNameId = document.getElementById(jVarLocalHtmlId);
 
-    // Clone the new row and insert it into the table
-    const clone = template.content.cloneNode(true);
-    let jVarLocalIsStudentYesId = clone.getElementById("IsStudentYesId");
-
-    if (jVarLocalIsStudentYesId === null === false) {
-        jVarLocalIsStudentYesId.addEventListener("click", jFLocalButtonClickForYes);
+    if (jVarLocalUserNameId === null === false) {
+        jVarLocalUserNameId.innerHTML = inValue;
     };
+};
 
-    let jVarLocalIsStudentNoId = clone.getElementById("IsStudentNoId");
+let jFLocalToInputMobileNumberId = (inValue) => {
+    let jVarLocalHtmlId = 'MobileNumberId';
+    let jVarLocalMobileNumberId = document.getElementById(jVarLocalHtmlId);
 
-    if (jVarLocalIsStudentNoId === null === false) {
-        jVarLocalIsStudentNoId.addEventListener("click", jFLocalButtonClickForNo);
+    if (jVarLocalMobileNumberId === null === false) {
+        jVarLocalMobileNumberId.innerHTML = inValue;
     };
+};
 
-    jVarLocalChatContentId.appendChild(clone);
+const wAProfile = ({ inData }) => {
+    jFLocalToInputUserNameId(inData.pushname);
+    jFLocalToInputMobileNumberId(inData.me.user);
 };
 
 const jFLocalButtonClickForYes = () => {
