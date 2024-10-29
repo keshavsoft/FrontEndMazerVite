@@ -23,8 +23,8 @@
     "CompletionQrCodes": "vite build --config vite.config-CompletionQrCodes.js",
     "CompletionVoucher": "vite build --config vite.config-CompletionVoucher.js",
     "WashingVoucher": "vite build --config vite.config-WashingVoucher.js",
-    "ToBranch": "vite build --config vite.config-ToBranch.js"
-
+    "ToBranch": "vite build --config vite.config-ToBranch.js",
+    "WA": "vite build --config vite.config-WA.js"
   },
   "author": "",
   "license": "ISC",
