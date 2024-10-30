@@ -17,5 +17,10 @@
     "name": "sendMessage",
     "url": "./sendMessage.html",
     "icon": "grid-fill"
+  },
+  {
+    "name": "Import",
+    "url": "./import-Excel.html",
+    "icon": "grid-fill"
   }
 ]
