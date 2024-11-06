@@ -25,7 +25,8 @@
     "WashingVoucher": "vite build --config vite.config-WashingVoucher.js",
     "ToBranch": "vite build --config vite.config-ToBranch.js",
     "WA": "vite build --config vite.config-WA.js",
-    "QrCode": "vite build --config vite.config_QrCode.js"
+    "QrCode": "vite build --config vite.config_QrCode.js",
+    "bs5": "vite build --config vite.config-bs5.js"
   },
   "author": "",
   "license": "ISC",
