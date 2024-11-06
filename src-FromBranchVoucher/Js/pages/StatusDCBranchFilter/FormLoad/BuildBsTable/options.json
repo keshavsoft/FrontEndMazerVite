@@ -7,6 +7,7 @@
     "queryParams": "queryParams",
     "data": [],
     "onClickRow": "",
+    "filterControl": true,
     "url": "/Custom/Clients/Laundry/Factory/Inward/Scan/Voucher/QrStatus/$FactoryName",
     "columns": [
         {
@@ -22,7 +23,7 @@
         {
             "field": "BranchName",
             "title": "FromBranch ",
-            "filtercontrol": "select"
+            "filterControl": "select"
         },
         {
             "field": "Description",
