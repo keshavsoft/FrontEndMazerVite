@@ -5,7 +5,6 @@ const StartFunc = () => {
 
     if (jVarLocalFromAdmin) {
         StartFuncFormLoad();
-
     };
 };
 
