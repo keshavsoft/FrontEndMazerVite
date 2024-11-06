@@ -26,7 +26,7 @@
     "ToBranch": "vite build --config vite.config-ToBranch.js",
     "WA": "vite build --config vite.config-WA.js",
     "QrCode": "vite build --config vite.config_QrCode.js",
-    "bs5": "vite build --config vite.config-bs5.js"
+    "bs5": "vite build --config k1/src-bs5/vite.config.js"
   },
   "author": "",
   "license": "ISC",
