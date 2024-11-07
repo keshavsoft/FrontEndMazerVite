@@ -22,7 +22,7 @@
     "PressingVoucher": "vite build --config vite.config-PressingVoucher.js",
     "CompletionQrCodes": "vite build --config vite.config-CompletionQrCodes.js",
     "CompletionVoucher": "vite build --config vite.config-CompletionVoucher.js",
-    "WashingVoucher": "vite build --config vite.config-WashingVoucher.js",
+    "WashingVoucher": "vite build --config Laundry/WashingVoucher/vite.config.js",
     "ToBranch": "vite build --config vite.config-ToBranch.js",
     "WA": "vite build --config vite.config-WA.js",
     "QrCode": "vite build --config vite.config_QrCode.js",
