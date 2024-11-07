@@ -18,7 +18,7 @@
     "FromEntryQrCodes": "vite build --config vite.config-FromEntryQrCodes.js",
     "FromEntryVoucher": "vite build --config vite.config-FromEntryVoucher.js",
     "Vertical": "vite build --config vite.config-Vertical.js",
-    "PressingQrCodes": "vite build --config vite.config-PressingQrCodes.js",
+    "PressingQrCodes": "vite build --config Laundry/PressingQrCodes/vite.config.js",
     "PressingVoucher": "vite build --config Laundry/PressingVoucher/vite.config.js",
     "CompletionQrCodes": "vite build --config vite.config-CompletionQrCodes.js",
     "CompletionVoucher": "vite build --config vite.config-CompletionVoucher.js",
