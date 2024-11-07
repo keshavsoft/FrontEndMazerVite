@@ -1,0 +1,70 @@
+[
+  {
+    "name": "WashingVoucher",
+    "isTitle": true
+  },
+  {
+    "name": "Dashboard",
+    "url": "index.html",
+    "icon": "grid-fill"
+  },
+  {
+    "name": "Create",
+    "key": "create",
+    "icon": "bi bi-plus-circle-fill",
+    "submenu": [
+      {
+        "name": "DC",
+        "url": "createDC.html"
+      },
+      {
+        "name": "Return-DC",
+        "url": "createReturnDC.html"
+      },
+      {
+        "name": "Rewash-DC",
+        "url": "createReWashDC.html"
+      }
+    ]
+  },
+  {
+    "name": "Insert",
+    "key": "insert",
+    "icon": "stack",
+    "submenu": [
+      {
+        "name": "ToDC",
+        "url": "insertToDC.html"
+      },
+      {
+        "name": "ToReturn-DC",
+        "url": "insertToReturnDC.html"
+      },
+      {
+        "name": "ToRewash-DC",
+        "url": "insertToRewashDC.html"
+      }
+    ]
+  },
+  {
+    "name": "Status",
+    "key": "Status",
+    "icon": "stack",
+    "submenu": [
+      {
+        "name": "DC",
+        "url": "StatusDC.html"
+      }
+    ]
+  },
+  {
+    "name": "Qr-Reports",
+    "url": "../../FromEntryQrCodes/",
+    "icon": "bi bi-qr-code"
+  },
+  {
+    "name": "Pressing",
+    "url": "../Pressing/PressingVoucher/",
+    "icon": "bi bi-body-text"
+  }
+]
