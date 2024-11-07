@@ -1,0 +1,67 @@
+[
+  {
+    "name": "PressingVoucher",
+    "isTitle": true
+  },
+  {
+    "name": "Dashboard",
+    "url": "index.html",
+    "icon": "grid-fill"
+  },
+  {
+    "name": "Create",
+    "key": "create",
+    "icon": "bi bi-plus-circle-fill",
+    "submenu": [
+      {
+        "name": "DC",
+        "url": "createDC.html"
+      },
+      {
+        "name": "Return-DC",
+        "url": "createReturnDC.html"
+      }
+    ]
+  },
+  {
+    "name": "Insert",
+    "key": "insert",
+    "icon": "stack",
+    "submenu": [
+      {
+        "name": "ToDC",
+        "url": "insertToDC.html"
+      },
+      {
+        "name": "ToReturn-DC",
+        "url": "insertToReturnDC.html"
+      }
+    ]
+  },
+  {
+    "name": "Status",
+    "key": "Status",
+    "icon": "stack",
+    "submenu": [
+      {
+        "name": "DC",
+        "url": "StatusDC.html"
+      }
+    ]
+  },
+  {
+    "name": "Qr-Reports",
+    "url": "../PressingQrCodes/",
+    "icon": "bi bi-qr-code"
+  },
+  {
+    "name": "Washing",
+    "url": "../../WashingVoucher/",
+    "icon": "bi bi-brilliance"
+  },
+  {
+    "name": "Outward",
+    "url": "../../Completion/CompletionVoucher/",
+    "icon": "bi bi-check-circle"
+  }
+]

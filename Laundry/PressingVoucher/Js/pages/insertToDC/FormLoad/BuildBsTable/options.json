@@ -1,0 +1,44 @@
+{
+    "idfield": "pk",
+    "showFooter": "true",
+    "search": true,
+    "searchHighlight": true,
+    "data": [],
+    "onClickRow": "",
+    "responseHandler": "responseHandler",
+    "queryParams": "queryParams",
+    "rowStyle": "rowStyle",
+    "url": "/Custom/Clients/Laundry/Factory/Process/Pressing/Scan/Voucher/$FactoryName",
+    "columns": [
+        {
+            "field": "KS-Serial",
+            "title": "#",
+            "formatter": "jFLocalSerialColumn"
+        },
+        {
+            "field": "pk",
+            "title": "DC",
+            "filtercontrol": "input"
+        },
+        {
+            "field": "Date",
+            "title": "Date",
+            "filtercontrol": "select"
+        },
+        {
+            "field": "Description",
+            "title": "Description",
+            "filtercontrol": "select"
+        },
+        {
+            "title": "Items",
+            "formatter": "ItemsFormatter",
+            "footerFormatter": "totalFormatter"
+        },
+        {
+            "title": "Scan",
+            "field": "operate",
+            "formatter": ""
+        }
+    ]
+}
