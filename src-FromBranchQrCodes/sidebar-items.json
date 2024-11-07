@@ -11,13 +11,18 @@
   },
   {
     "name": "All",
-    "url": "QRShowAll.html",
-    "icon": "bi bi-list-ul"
-  },
-  {
-    "name": "DcFilter",
-    "url": "QRDcFilter.html",
-    "icon": "bi bi-list-ul"
+    "key": "QR",
+    "icon": "bi bi-list-ul",
+    "submenu": [
+      {
+        "name": "ShowAll",
+        "url": "QRShowAll.html"
+      },
+      {
+        "name": "DcFilter",
+        "url": "QRDcFilter.html"
+      }
+    ]
   },
   {
     "name": "Pending",
