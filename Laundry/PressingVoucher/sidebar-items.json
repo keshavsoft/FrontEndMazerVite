@@ -61,7 +61,7 @@
   },
   {
     "name": "Outward",
-    "url": "../../Completion/CompletionVoucher/",
+    "url": "../../../Completion/CompletionVoucher/",
     "icon": "bi bi-check-circle"
   }
 ]

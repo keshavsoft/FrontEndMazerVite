@@ -48,12 +48,12 @@
   },
   {
     "name": "Washing",
-    "url": "../../WashingVoucher/",
+    "url": "/Laundry/Factory/Process/WashingVoucher",
     "icon": "bi bi-brilliance"
   },
   {
     "name": "Pressing",
-    "url": "../../Pressing/PressingVoucher/",
+    "url": "/Laundry/Factory/Process/Pressing/PressingVoucher",
     "icon": "bi bi-body-text"
   }
 ]
