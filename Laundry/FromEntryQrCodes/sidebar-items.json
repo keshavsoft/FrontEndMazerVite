@@ -6,7 +6,7 @@
   {
     "name": "Dashboard",
     "icon": "bi bi-grid",
-    "url": "../Process/WashingVoucher/"
+    "url": "../../Process/WashingVoucher/"
   },
   {
     "name": "All",
