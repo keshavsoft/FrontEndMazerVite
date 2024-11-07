@@ -4,17 +4,16 @@ import path, { resolve } from 'path'
 import { fileURLToPath } from 'url';
 import nunjucks from 'vite-plugin-nunjucks'
 import { viteStaticCopy } from 'vite-plugin-static-copy';
-
+import sidebarItems from "./sidebar-items.json"
+import horizontalMenuItems from "./horizontal-menu-items.json"
 const srcFolder = "";
-const distFolder = "../../publicDir/bs5";
-
-import sidebarItems from "./sidebar-items.json";
-import horizontalMenuItems from "./horizontal-menu-items.json";
-
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const root = resolve(__dirname, srcFolder)
+const CommonOutFolder = "../../PublicDir/Inward/FromBranch/FromBranchVoucher";
+
+// const root = resolve(__dirname, 'src-FromBranchQrCodes')
 
 const getFiles = () => {
     let files = {}
@@ -38,22 +37,24 @@ const getVariables = (mode) => {
             sidebarItems,
             horizontalMenuItems,
             isDev: mode === 'development',
-            filename: `${filename}.html`
+            filename: filename + '.html',
+            title: filename
         }
     })
     return variables
 }
 
+
 build({
     configFile: false,
     build: {
         emptyOutDir: false,
-        outDir: resolve(__dirname, `${distFolder}/assets/compiled/js`),
+        outDir: resolve(__dirname, `${CommonOutFolder}/assets/compiled/js`),
         lib: {
             name: 'app',
             formats: ['umd'],
             fileName: 'app',
-            entry: resolve(__dirname, `./assets/js/app.js`),
+            entry: './src/assets/js/app.js',
         },
         rollupOptions: {
             output: {
@@ -61,7 +62,9 @@ build({
             }
         }
     },
-});
+})
+
+
 
 export default defineConfig((env) => ({
     publicDir: 'static',
@@ -70,8 +73,8 @@ export default defineConfig((env) => ({
     plugins: [
         viteStaticCopy({
             targets: [
-                { src: normalizePath(resolve(__dirname, `./assets/static`)), dest: 'assets' },
-                { src: normalizePath(resolve(__dirname, `./${distFolder}/assets/compiled/fonts`)), dest: 'assets/compiled/css' },
+                { src: normalizePath(resolve(__dirname, './src/assets/static')), dest: 'assets' },
+                { src: normalizePath(resolve(__dirname, `./${CommonOutFolder}/assets/compiled/fonts`)), dest: 'assets/compiled/css' },
                 { src: normalizePath(resolve(__dirname, "./node_modules/bootstrap-icons/bootstrap-icons.svg")), dest: 'assets/static/images' }
             ],
             watch: {
@@ -109,7 +112,7 @@ export default defineConfig((env) => ({
         emptyOutDir: false,
         manifest: true,
         target: "chrome58",
-        outDir: resolve(__dirname, distFolder),
+        outDir: resolve(__dirname, CommonOutFolder),
         rollupOptions: {
             input: files,
             output: {
