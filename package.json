@@ -15,7 +15,7 @@
     "TableShow": "vite build --config vite.config-TableShow.js",
     "FromBranchQrCodes": "vite build --config Laundry/FromBranchQrCodes/vite.config.js",
     "FromBranchVoucher": "vite build --config Laundry/FromBranchVoucher/vite.config.js",
-    "FromEntryQrCodes": "vite build --config vite.config-FromEntryQrCodes.js",
+    "FromEntryQrCodes": "vite build --config Laundry/FromEntryQrCodes/vite.config.js",
     "FromEntryVoucher": "vite build --config vite.config-FromEntryVoucher.js",
     "Vertical": "vite build --config vite.config-Vertical.js",
     "PressingQrCodes": "vite build --config Laundry/PressingQrCodes/vite.config.js",
