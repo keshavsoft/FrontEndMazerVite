@@ -9,38 +9,8 @@
     "icon": "grid-fill"
   },
   {
-    "name": "Chat",
-    "url": "./chat.html",
-    "icon": "grid-fill"
-  },
-  {
-    "name": "ChatSingle",
-    "url": "./ChatSingle.html",
-    "icon": "grid-fill"
-  },
-  {
-    "name": "AllTables",
-    "url": "../bin/AllTables",
-    "icon": "grid-fill"
-  },
-  {
-    "name": "chatMessages",
-    "url": "./chatMessages.html",
-    "icon": "grid-fill"
-  },
-  {
-    "name": "AllUsers",
-    "url": "./AllUsers.html",
-    "icon": "grid-fill"
-  },
-  {
-    "name": "AllUsersStartChat",
-    "url": "./AllUsersStartChat.html",
-    "icon": "grid-fill"
-  },
-  {
-    "name": "Profile",
-    "url": "./account-profile.html",
+    "name": "show",
+    "url": "show.html",
     "icon": "grid-fill"
   }
 ]
