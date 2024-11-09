@@ -32,6 +32,7 @@
         },
         {
             "title": "Items",
+            "field":"ItemDetails",
             "formatter": "ItemsFormatter",
             "footerFormatter": "totalFormatter"
         },
