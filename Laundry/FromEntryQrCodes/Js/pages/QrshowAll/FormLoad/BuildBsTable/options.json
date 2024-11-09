@@ -7,7 +7,8 @@
     "onClickRow": "",
     "responseHandler": "",
     "queryParams": "",
-    "pagination":"true",
+    "pagination": "true",
+    "filterControl": "true",
     "rowStyle": "rowStyle",
     "columns": [
         {
@@ -29,43 +30,35 @@
         },
         {
             "field": "QrCodeId",
-            "title": "QrCode",
-            "filtercontrol": "select"
+            "title": "QrCode"
         },
         {
             "field": "ItemName",
-            "title": "ItemName",
-            "filtercontrol": "select"
+            "title": "ItemName"
         },
         {
             "field": "Rate",
             "title": "Rate",
-            "filtercontrol": "select",
             "footerFormatter": "totalFormatter"
         },
         {
             "title": "BranchName",
             "field": "BranchName",
-            "filtercontrol": "select"
+            "filterControl": "select"
         },
         {
             "title": "Status",
             "field": "Status",
-            "filtercontrol": "select"
+            "filterControl": "select"
         },
         {
             "title": "ReWash",
-            "field": "ReWashStatus"
-        },
-        {
-            "title": "BranchName",
-            "field": "BranchName",
-            "filtercontrol": "select"
+            "field": "ReWashStatus",
+            "filterControl": "select"
         },
         {
             "title": "GenSpan",
-            "field": "TimeSpan",
-            "filtercontrol": "select"
+            "field": "TimeSpan"
         }
     ]
 }

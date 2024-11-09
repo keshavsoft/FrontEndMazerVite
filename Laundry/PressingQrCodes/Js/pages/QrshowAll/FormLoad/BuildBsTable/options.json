@@ -7,7 +7,8 @@
     "onClickRow": "",
     "responseHandler": "",
     "queryParams": "",
-    "pagination":"true",
+    "pagination": "true",
+    "filterControl": "true",
     "rowStyle": "rowStyle",
     "columns": [
         {
@@ -34,38 +35,31 @@
         },
         {
             "field": "ItemName",
-            "title": "ItemName",
-            "filtercontrol": "select"
+            "title": "ItemName"
         },
         {
             "field": "Rate",
             "title": "Rate",
-            "filtercontrol": "select",
             "footerFormatter": "totalFormatter"
         },
         {
             "title": "BranchName",
             "field": "BranchName",
-            "filtercontrol": "select"
+            "filterControl": "select"
         },
         {
             "title": "Scan",
             "field": "Status",
-            "filtercontrol": "select"
+            "filterControl": "select"
         },
         {
             "title": "Return",
-            "field": "EntryReturnStatus"
-        },
-        {
-            "title": "BranchName",
-            "field": "BranchName",
-            "filtercontrol": "select"
+            "field": "EntryReturnStatus",
+            "filterControl": "select"
         },
         {
             "title": "GenSpan",
-            "field": "TimeSpan",
-            "filtercontrol": "select"
+            "field": "TimeSpan"
         }
     ]
 }
