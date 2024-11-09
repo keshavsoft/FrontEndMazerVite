@@ -50,16 +50,20 @@
             "field": "DCDate"
         },
         {
-            "title": "BranchName",
-            "field": "BranchName"
+            "title": "Branch",
+            "field": "BranchName",
+            "filterControl": "select"
+            
         },
         {
             "title": "Status",
-            "field": "Status"
+            "field": "Status",
+            "filterControl":"select"
         },
         {
             "title": "Return",
-            "field": "EntryReturnStarus"
+            "field": "EntryReturnStarus",
+            "filterControl": "select"
         },
         {
             "title": "GenSpan",
