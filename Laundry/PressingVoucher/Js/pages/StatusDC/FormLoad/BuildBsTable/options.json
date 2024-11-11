@@ -20,11 +20,13 @@
         },
         {
             "field": "data1Count",
-            "title": "Send "
+            "title": "Send ",
+            "footerFormatter": "totalFormatter"
         },
         {
             "field": "data2Count",
-            "title": "Scan"
+            "title": "Scan",
+            "footerFormatter": "totalFormatter"
         }
     ]
 }
