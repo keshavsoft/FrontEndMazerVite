@@ -1,5 +1,5 @@
 let StartFunc = (event) => {
-    webSocket.send("returnOnlineClientsWOMe");
+    webSocket.send("returnOnlineClients");
 };
 
 export { StartFunc };
