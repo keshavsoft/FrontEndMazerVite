@@ -27,6 +27,10 @@
       {
         "name": "DCItems",
         "url": "ShowDCItems.html"
+      },
+      {
+        "name": "BranchDCItems",
+        "url": "ShowDCBranchItems.html"
       }
     ]
   },

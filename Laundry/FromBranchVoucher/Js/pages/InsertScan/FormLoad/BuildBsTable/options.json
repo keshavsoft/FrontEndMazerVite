@@ -38,11 +38,7 @@
             "title": "Description",
             "filtercontrol": "select"
         },
-        {
-            "title": "Items",
-            "formatter": "ItemsFormatter",
-            "footerFormatter": "priceFormatter"
-        },
+        
         {
             "title": "Scan",
             "field": "operate",
@@ -50,11 +46,18 @@
         },
         {
             "title": "Sent From Branch",
+            "formatter": "ItemsFormatter2",
             "field": "Sent"
         },
         {
-            "title": "Scanned at Factory",
-            "field": "Scanned"
+            "title": "Scanned",
+            "formatter": "ItemsFormatter",
+            "footerFormatter": "priceFormatter"
+        },
+        {
+            "title": "Pending",
+            "field": "Pending",
+            "formatter":"PendingFormatter"
         },
         {
             "title": "EntryCancel",
