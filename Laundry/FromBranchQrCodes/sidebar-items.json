@@ -11,7 +11,7 @@
   },
   {
     "name": "All",
-    "key": "QR",
+    "key": "QRShow",
     "icon": "bi bi-list-ul",
     "submenu": [
       {
@@ -20,7 +20,7 @@
       },
       {
         "name": "DcFilter",
-        "url": "QRDcFilter.html"
+        "url": "QRShowDcFilter.html"
       }
     ]
   },
