@@ -6,6 +6,7 @@
     "responseHandler": "responseHandler",
     "queryParams": "queryParams",
     "pagination":"true",
+    "filtercontrol":true,
     "data": [],
     "onClickRow": "",
     "columns": [
@@ -48,6 +49,11 @@
             "field": "Rate",
             "filtercontrol": "select",
             "footerFormatter":"totalFormatter"
+        },
+        {
+            "title":"ReWash",
+            "field":"ReWash",
+            "filtercontrol":"select"
         },
         {
             "title": "Time Span",
