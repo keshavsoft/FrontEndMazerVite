@@ -65,7 +65,7 @@
     ]
   },
   {
-    "name": "FromBranchQrCodes",
+    "name": "Qr-Reports",
     "icon": "bi bi-qr-code",
     "url": "../FromBranchQrCodes/"
   }
