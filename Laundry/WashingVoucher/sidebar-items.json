@@ -54,6 +54,10 @@
       {
         "name": "DC",
         "url": "StatusDC.html"
+      },
+      {
+        "name": "DCFilter",
+        "url": "StatusDCFilter.html"
       }
     ]
   },

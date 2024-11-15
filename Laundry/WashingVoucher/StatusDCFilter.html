@@ -1,0 +1,26 @@
+{% extends 'Laundry/WashingVoucher/layouts/masterWithImage.html' %}
+
+{% block content %}
+<div class="page-heading">
+    <section class="section">
+        <div class="spinner-border" id="SpinnerId" role="status" style="display: none;">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+        <table class="table table-dark mb-0" id="table">
+            <thead>
+                <tr>
+                    <th data-formatter="jFGlobalSerialColumn">#</th>
+                </tr>
+
+            </thead>
+        </table>
+    </section>
+    <!-- Inverse table end -->
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<script type="module" src="./Js/pages/StatusDCFilter/StartFunc.js"></script>
+
+
+{% endblock %}
