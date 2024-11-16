@@ -27,7 +27,8 @@
         },
         {
             "title": "SendMessage",
-            "field": "SendMessage"
+            "field": "SendMessage",
+            "formatter":""
         }
     ]
 }

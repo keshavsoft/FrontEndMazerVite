@@ -1,10 +1,10 @@
-import { StartFunc as ColumnOperate } from "./ColumnOperate/entryFile.js";
+import { StartFunc as ColumnSendMessage } from "./ColumnSendMessage/entryFile.js";
 
 let StartFunc = ({ inColumns }) => {
     let LocalColumns = inColumns;
-    let LocalColumnOperateFine = LocalColumns.find(element => element.field === "operate");
+    let LocalColumnOperateFine = LocalColumns.find(element => element.field === "SendMessage");
 
-    ColumnOperate({ inFindColumn: LocalColumnOperateFine });
+    ColumnSendMessage({ inFindColumn: LocalColumnOperateFine });
 };
 
 export { StartFunc };
