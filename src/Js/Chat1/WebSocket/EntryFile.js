@@ -12,10 +12,6 @@ if (location.protocol === "http:") {
     jVarLocalUrlForWS = "ws://" + jVarLocalHostName;
 };
 
-let StartFunc = () => {
-    jFLocalEstablishWebSocket();
-};
-
 let jFLocalEstablishWebSocket = () => {
     webSocket = new WebSocket(jVarLocalUrlForWS);
 
@@ -26,4 +22,6 @@ let jFLocalEstablishWebSocket = () => {
     };
 };
 
-StartFunc();
+document.addEventListener("DOMContentLoaded", function () {
+    jFLocalEstablishWebSocket();
+});
