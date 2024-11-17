@@ -1,4 +1,4 @@
-import { StartFunc as sendMessage } from "./Types/sendMessage.js";
+import { StartFunc as sendMessage } from "./Types/EntryFile.js";
 
 let StartFunc = (event) => {
     let jVarLocalJsonObject = JSON.parse(event.data);
@@ -8,9 +8,6 @@ let StartFunc = (event) => {
         case "sendMessage":
             sendMessage({ inObject: jVarLocalJsonObject });
 
-            // sendMessage{
-
-            // }
             break;
 
         default:
