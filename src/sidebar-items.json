@@ -19,6 +19,11 @@
     "icon": "grid-fill"
   },
   {
+    "name": "chatAll",
+    "url": "./chatAll.html",
+    "icon": "grid-fill"
+  },
+  {
     "name": "AllTables",
     "url": "../bin/AllTables",
     "icon": "grid-fill"
