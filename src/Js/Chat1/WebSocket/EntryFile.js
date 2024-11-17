@@ -1,5 +1,5 @@
 import { StartFunc as onOpen } from "./onOpen.js";
-import { StartFunc as onMessage } from "./onMessage.js";
+import { StartFunc as onMessage } from "./onMessage/EntryFile.js";
 
 let jVarLocalHostName = window.location.host;
 let jVarLocalUrlForWS;
