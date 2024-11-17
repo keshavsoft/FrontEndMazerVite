@@ -1,9 +1,10 @@
 import { StartFunc as sendMessage } from "./Types/sendMessage.js";
 
 let StartFunc = (event) => {
-    let jVarLocalJsonObject = Json.parse(event.data);
+    let jVarLocalJsonObject = JSON.parse(event.data);
+    console.log("types",jVarLocalJsonObject);
 
-    switch (jVarLocalJsonObject.type) {
+    switch (jVarLocalJsonObject.Type) {
         case "sendMessage":
             sendMessage({ inObject: jVarLocalJsonObject });
 
